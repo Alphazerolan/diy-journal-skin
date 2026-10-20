@@ -1,0 +1,27 @@
+name: 问题反馈 / Bug report
+description: 报告皮肤显示或兼容性问题 / Report a skin issue
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Harness、皮肤版本与系统 / Versions and OS
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤、预期与实际表现 / Steps, expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图与显示环境 / Screenshot and display settings
+      description: 附主题、窗口尺寸、缩放；遮盖账号、路径、会话名并隐藏无授权宠物。Redact personal information and hide unlicensed pets.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 上传检查 / Upload check
+      options:
+        - label: 截图和日志不包含个人信息或密钥 / No personal information or secrets included
+          required: true

@@ -1,0 +1,18 @@
+Artwork and third-party material scope / 美术与第三方素材范围
+
+The root MIT license applies to project-authored software and documentation,
+not automatically to artwork, characters, fonts or trademarks.
+
+Illustrations: ChatGPT-generated outputs are recorded in
+skins/diy-journal/ARTWORK.json. The source, reference character and unresolved
+redistribution clearance are disclosed in skins/diy-journal/NOTICE.
+No new blanket license or claim of official DeepSeek authorization is made here.
+
+Fonts retain their bundled SIL OFL license files. Project decorations follow
+the scope stated in NOTICE. Personal input photos and unrelated pet artwork
+are not included. Screenshot presentation is not an additional artwork license.
+
+根 MIT 许可适用于项目编写的软件与文档，不自动覆盖角色、插画、字体及商标。
+生成方式与逐图记录见 ARTWORK.json；素材说明和参考角色尚未核实的授权见 NOTICE。
+本文件没有扩大素材授权，也没有宣称获得官方授权。
+字体保留原 OFL 文件；不包含个人输入照片或独立宠物素材。

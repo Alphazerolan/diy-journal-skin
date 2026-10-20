@@ -1,0 +1,14 @@
+name: 功能建议 / Feature request
+description: 提出皮肤改进建议 / Suggest a skin improvement
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: 使用场景与期望效果 / Use case and desired result
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: 可选参考 / Optional reference
+      description: 请说明素材来源与授权，不要上传个人信息。State source and permission; exclude personal information.
