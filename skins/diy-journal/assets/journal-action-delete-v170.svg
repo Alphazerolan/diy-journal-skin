@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><defs><pattern id="hatch" width="2.5" height="3.4" patternUnits="userSpaceOnUse" patternTransform="rotate(28)"><path d="M.3 0L.5 3.4M1.8 .4L1.6 3.1" fill="none" stroke="#355c7e" stroke-width=".22" opacity=".28"/></pattern></defs>
+<path d="M13 10V7Q13 5.5 14.5 5.4L21 5.1Q22.7 5.1 22.7 6.8V10" fill="none" stroke="#fffdf2" stroke-width="3.8" stroke-linejoin="round"/>
+<path d="M9 12L10.3 29Q10.4 30.4 12 30.2L24 29.8Q25.3 29.8 25.5 28.4L27 11.5Z" fill="#fffdf2" stroke="#fffdf2" stroke-width="3.3" stroke-linejoin="round"/>
+<path d="M9 12L10.3 29Q10.4 30.4 12 30.2L24 29.8Q25.3 29.8 25.5 28.4L27 11.5Z" fill="#fff9e9" stroke="#285579" stroke-width="1.15" stroke-linejoin="round"/>
+<path d="M9 12L10.3 29Q10.4 30.4 12 30.2L24 29.8Q25.3 29.8 25.5 28.4L27 11.5Z" fill="url(#hatch)"/>
+<path d="M13 10V7Q13 5.5 14.5 5.4L21 5.1Q22.7 5.1 22.7 6.8V10" fill="none" stroke="#285579" stroke-width="1.15" stroke-linejoin="round"/>
+<path d="M7 10.5L28.5 10Q29.5 10 29.6 11.1L29.5 13L6.7 13.4L6.5 11.6Q6.4 10.5 7 10.5Z" fill="#edc46c" stroke="#fffdf2" stroke-width="3" stroke-linejoin="round"/>
+<path d="M7 10.5L28.5 10Q29.5 10 29.6 11.1L29.5 13L6.7 13.4L6.5 11.6Q6.4 10.5 7 10.5Z" fill="#edc46c" stroke="#285579" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M7 10.5L28.5 10Q29.5 10 29.6 11.1L29.5 13L6.7 13.4L6.5 11.6Q6.4 10.5 7 10.5Z" fill="url(#hatch)"/>
+<path d="M13.5 16.5L14.2 26.3M18.3 16.3L18.1 26.2M23 16.3L22.3 26" fill="none" stroke="#285984" stroke-width="1.15" stroke-linecap="round"/>
+</svg>

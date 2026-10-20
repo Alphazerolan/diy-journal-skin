@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="48" viewBox="0 0 44 48">
+<defs>
+ <linearGradient id="cover" x2="1" y2="1"><stop stop-color="#b9deee"/><stop offset="1" stop-color="#80b6d0"/></linearGradient>
+</defs>
+<!-- A tiny cloth address book: rounded spine, paper block, index tabs. -->
+<path d="M7 4L33 3Q36 3 36 6L36 42Q36 45 32 45L7 46Q3 45 3 41V9Q3 5 7 4Z" fill="#416d8540"/>
+<path d="M8 3L33 2Q35 2 35 5V40L8 43Q4 43 4 39V8Q4 4 8 3Z" fill="url(#cover)" stroke="#4d7d98" stroke-width="1.4" stroke-linejoin="round"/>
+<path d="M9 4L9 37Q4 37 4 40" fill="none" stroke="#6699b5" stroke-width="1.2"/>
+<path d="M6.5 8V34" stroke="#edf8fa" stroke-width=".9" stroke-dasharray="2 2.5" stroke-linecap="round"/>
+<path d="M35 10H39Q40 10 40 12V17H35" fill="#f3e8be" stroke="#9ab3b9" stroke-width=".8"/>
+<path d="M35 19H40V26H35" fill="#e0f0f6" stroke="#9ab3b9" stroke-width=".8"/>
+<path d="M35 28H39Q40 28 40 30V35H35" fill="#f3e8be" stroke="#9ab3b9" stroke-width=".8"/>
+<path d="M10 37H35V42H9Q5 42 5 40Q5 38 10 37Z" fill="#fff8e5" stroke="#8ca3aa" stroke-width="1"/>
+<path d="M10 39H33M10 41H31" stroke="#d1c8b1" stroke-width=".7"/>
+<path d="M12 9L31 8L32 31L12 32Z" fill="#fffbec" stroke="#90b2c0" stroke-width=".8"/>
+<g fill="none" stroke="#416f8b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M17 13L14.8 15Q14 16.5 16 20.5Q19.5 26 24.5 27L27.2 24.8L24 21.6L21.8 23Q18.5 21.5 18 18L19.7 16.5Z"/>
+</g>
+<path d="M15 34L28 33" stroke="#5a8ca8" stroke-width="1" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="400" viewBox="0 0 256 400">
+<defs><pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M12 0H0V12" fill="none" stroke="#c8d7d9" stroke-width=".5" opacity=".23"/></pattern><pattern id="grain" width="7" height="9" patternUnits="userSpaceOnUse"><path d="M1 2h1m3 4h1" stroke="#8eb7d0" stroke-width=".4" opacity=".14"/></pattern></defs>
+<path d="M1 18L8 5Q10 1 15 1H80Q84 1 87 5L98 16H245Q255 16 255 26V389Q255 399 245 399H11Q1 399 1 389Z" fill="#c5e1f1" stroke="#8eb7d0"/>
+<path d="M1 18L8 5Q10 1 15 1H80Q84 1 87 5L98 16H245Q255 16 255 26V389Q255 399 245 399H11Q1 399 1 389Z" fill="url(#grain)"/>
+<rect x="8" y="27" width="240" height="356" rx="6" fill="#f3eddd" stroke="#8eb7d0" stroke-opacity=".6" stroke-width=".7"/>
+<rect x="5" y="30" width="246" height="353" rx="7" fill="#fffaf0" stroke="#8eb7d0" stroke-opacity=".6" stroke-width=".7"/>
+<rect x="6" y="31" width="244" height="351" rx="6" fill="url(#grid)"/>
+<path d="M119 30V24q0-2 2-2h22q2 0 2 2v6Z" fill="#86b4d1" stroke="#8eb7d0" stroke-width=".6"/>
+<path d="M1 373H7Q11 373 15 379L20 385Q23 388 28 388H228Q233 388 236 385L241 379Q245 373 249 373H255V389Q255 399 245 399H11Q1 399 1 389Z" fill="#c5e1f1" stroke="#8eb7d0" stroke-width=".8"/>
+<path d="M1 373H7Q11 373 15 379L20 385Q23 388 28 388H228Q233 388 236 385L241 379Q245 373 249 373H255V389Q255 399 245 399H11Q1 399 1 389Z" fill="url(#grain)"/>
+<path d="M10 380L21 391H235L246 380" fill="none" stroke="#80afd0" stroke-width=".85" stroke-dasharray="4 3" stroke-linecap="round"/>
+</svg>

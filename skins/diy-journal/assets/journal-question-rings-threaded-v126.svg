@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="48" viewBox="0 0 64 48">
+ <defs>
+  <linearGradient id="wire" x1="24" y1="0" x2="40" y2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#698595"/><stop offset=".27" stop-color="#f6fcff"/><stop offset=".6" stop-color="#c9dce6"/><stop offset="1" stop-color="#698594"/>
+  </linearGradient>
+  <clipPath id="onPaper"><path d="M0 13H64V48H0Z"/></clipPath>
+ </defs>
+ <!-- The back leg disappears behind the actual top edge (y=12). -->
+ <path d="M24 12V9" fill="none" stroke="#526c7c" stroke-width="4"/>
+ <!-- A punched opening and its bevel sit below the binding strip's upper edge. -->
+ <ellipse cx="33" cy="38" rx="6.5" ry="4" fill="#eef7fb" opacity=".8"/>
+ <ellipse cx="33" cy="37.5" rx="5.5" ry="3.1" fill="#68889b"/>
+ <ellipse cx="33" cy="37" rx="4.6" ry="2.2" fill="#263f50"/>
+ <!-- Only the front leg casts a shadow onto the page. -->
+ <path d="M24 12C23 -2 37 -2 38 12C40 25 38 33 33 37" transform="translate(2 1.5)" clip-path="url(#onPaper)" fill="none" stroke="#304e63" stroke-opacity=".22" stroke-width="5"/>
+ <path d="M24 12C23 -2 37 -2 38 12C40 25 38 33 33 37" fill="none" stroke="#526d7d" stroke-width="4.3"/>
+ <path d="M24 12C23 -2 37 -2 38 12C40 25 38 33 33 37" fill="none" stroke="url(#wire)" stroke-width="2.8"/>
+ <path d="M25 10C25 1 34 1 36 10C38 22 36 31 33 34" fill="none" stroke="#fff" stroke-opacity=".86" stroke-width=".85" stroke-linecap="round"/>
+ <!-- The near edge of the hole covers the wire tip; its hidden return stays behind the sheet. -->
+ <path d="M27.7 38.5Q33 42 38.3 38.5" fill="none" stroke="#c5dce9" stroke-width="1.3"/>
+</svg>

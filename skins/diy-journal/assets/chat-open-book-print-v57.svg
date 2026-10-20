@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 290">
+<defs><linearGradient id="page" x2="0" y2="1"><stop stop-color="#addef3" stop-opacity=".3"/><stop offset="1" stop-color="#6fb8d8" stop-opacity=".1"/></linearGradient></defs>
+<g transform="translate(16 10) rotate(-12 200 150)" stroke="#4b9fc9" stroke-linejoin="round" opacity=".38">
+<path d="M28 71Q119 43 195 87Q271 43 362 71L374 213Q276 185 195 231Q114 185 16 213Z" fill="url(#page)" stroke-width="3"/>
+<path d="M28 63Q112 32 195 80Q278 32 362 63L360 200Q275 174 195 220Q115 174 30 200Z" fill="#e1f4fc" fill-opacity=".25" stroke-width="2"/>
+<path d="M195 80V220M23 218Q112 195 190 237H200Q280 195 369 218" fill="none" stroke-width="2"/>
+<path d="M56 88Q122 70 173 101M55 110Q117 95 173 122M55 133Q119 119 173 146M54 158Q117 144 173 170M220 101Q272 70 336 88M220 122Q274 95 337 110M220 146Q274 119 337 133M220 170Q274 144 338 158" fill="none" stroke-width="1.6"/>
+<path d="M297 53L301 139 315 125 330 130 323 54" fill="#73bad8" fill-opacity=".25" stroke-width="1.5"/>
+</g></svg>

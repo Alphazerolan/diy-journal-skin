@@ -1,0 +1,92 @@
+{
+  "generator": "ChatGPT / OpenAI image generation",
+  "date": "2026-10-21",
+  "character": "Whale-chan / DeepSeek 鲸鱼娘（大肥鱼）",
+  "reference": "https://www.bilibili.com/video/BV16qhJ6qEHG/",
+  "images": [
+    {
+      "id": "home",
+      "region": "主界面",
+      "theme": "云海里的鲸鱼娘",
+      "sha256": "9bbddbbe67d5a9a732441ec1ec5c3f614e65c2f88a55a52d9af03e2f1c2e50a6"
+    },
+    {
+      "id": "account",
+      "region": "设置-账号与余额",
+      "theme": "鲸鱼存钱罐",
+      "sha256": "2adbf91eff529c103d89645a37adbb23dfc6f5d6cbef77992145420d69aabcd7"
+    },
+    {
+      "id": "general",
+      "region": "设置-通用设置",
+      "theme": "整理晨间小屋",
+      "sha256": "2623db5f49c2b5f887e8b8e91cab8efb3b6c9df6d04e2c822b093222b44eec2a"
+    },
+    {
+      "id": "models",
+      "region": "设置-模型",
+      "theme": "星图学习时间",
+      "sha256": "08b45b42b0d533006193a74e0d226d320ec3ae2b1a8f13fd371c3957c566befd"
+    },
+    {
+      "id": "plugins",
+      "region": "设置-内置插件",
+      "theme": "拼好一只小鲸鱼",
+      "sha256": "10abb847b17591b2fda5fad9e5e2dd75ecfcba357406ecbf1379244d5e2b8ff7"
+    },
+    {
+      "id": "presets",
+      "region": "设置-Agent预设",
+      "theme": "准备下一次冒险",
+      "sha256": "b9447cf111ba63c39ff84c08ca26865d0db3fdf59a787998b7af726d0229074b"
+    },
+    {
+      "id": "archive",
+      "region": "设置-已归档会话",
+      "theme": "收藏温柔回忆",
+      "sha256": "6691e4358ad0f6dd8c6e608abbe4777b5a148c38d05c4e6a280fcb5187cbed72"
+    },
+    {
+      "id": "web",
+      "region": "设置-Web插件",
+      "theme": "海边电话",
+      "sha256": "bd225dae35b1fe7d9067a5d6db1a977afd23df811934d5d2089662d9cc9db154"
+    },
+    {
+      "id": "skins",
+      "region": "设置-皮肤",
+      "theme": "挑选今日配色",
+      "sha256": "c80b1c754762405d9ba6340c4817011e95ce76d530b9ec9cccc89ca67477c2a5"
+    },
+    {
+      "id": "pets",
+      "region": "设置-宠物",
+      "theme": "草地上的小伙伴",
+      "sha256": "4b20c13159e468edd245ce93a57bda55f9c80f666fe3dbf12ff0ef3335f69477"
+    },
+    {
+      "id": "workshop",
+      "region": "设置-创意工坊",
+      "theme": "手账文具小摊",
+      "sha256": "e0b5877a642a743e58fc991a2140fa82111e8e23ccf19886e521e2634be3735a"
+    },
+    {
+      "id": "usage",
+      "region": "设置-使用统计",
+      "theme": "数一数今日星光",
+      "sha256": "8ab28c7ddace0fe4ec03d8658fc52bcdf5acda0f40f738b2300c2e28fd1dc849"
+    },
+    {
+      "id": "settings-sidebar",
+      "region": "设置界面左栏",
+      "theme": "拿手账招手的透明贴纸",
+      "sha256": "07de11b68167d7c7c0018847472a81b2a6f84ba3f0e5015358c33a5e97436aa9"
+    },
+    {
+      "id": "main-sidebar",
+      "region": "主界面左栏",
+      "theme": "休息一小会",
+      "sha256": "ab37c2c93eee8c04f47fe323619ee7390a15739937accfbe9aa2de1b1a80d06c"
+    }
+  ]
+}

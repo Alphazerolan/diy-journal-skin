@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="48" viewBox="0 0 1000 48" preserveAspectRatio="none">
+ <defs><filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter></defs>
+ <path d="M1 4H999V35L965 35 962 38 950 36 947 41 931 43 923 37 912 36 884 38 870 35 836 38 823 35 806 36 789 41 777 45 767 36 716 37 701 34 672 36 655 35 641 41 630 40 621 36 597 37 577 34 552 37 531 36 520 40 510 43 497 40 483 35 454 36 439 35 421 37 405 35 389 38 377 45 365 44 356 40 353 36 329 37 310 34 285 36 269 39 259 36 234 36 220 41 212 40 208 36 174 37 161 34 130 36 114 41 101 42 86 39 81 36 49 36 33 38 1 35Z" fill="#bad5e6"/>
+ <path d="M0 2L100 0 198 2 304 1 408 2 536 0 652 2 773 1 886 2 1000 0V31L984 32 969 30 951 32 937 39 928 38 920 32 899 33 880 31 864 32 849 30 831 33 813 32 798 37 785 41 776 34 766 32 745 33 724 31 708 32 689 31 667 33 651 32 642 38 633 37 628 32 608 33 590 31 573 32 552 30 535 33 523 36 516 41 502 39 494 33 476 32 457 34 439 31 418 33 401 31 389 33 379 42 369 41 359 36 355 32 336 34 317 31 298 33 282 32 269 35 258 32 241 33 225 31 218 37 211 36 207 32 185 34 166 31 149 32 131 31 116 38 104 40 92 36 84 32 68 33 52 31 37 34 20 32 0 33Z" fill="#d0e6f4" stroke="#83a9c1" stroke-opacity=".26" stroke-width=".7"/>
+ <path d="M2 25H998M2 28H998" stroke="#83a9c1" stroke-opacity=".17" stroke-width=".7"/>
+ <path d="M4 32H996" stroke="#90b6cd" stroke-opacity=".65" stroke-dasharray="7 8" stroke-width=".8"/>
+ <path d="M779 34Q785 35 802 29Q798 41 782 45Q786 39 779 34" fill="#d0e6f4" stroke="#83a9c1" stroke-opacity=".5" stroke-width=".5"/>
+ <rect width="1000" height="31" filter="url(#paper)" opacity=".045"/>
+ </svg>

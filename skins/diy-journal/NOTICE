@@ -1,0 +1,45 @@
+DIY Journal / DIY 手账本 1.14.1
+
+ILLUSTRATIONS / 插画
+The 14 Whale-chan illustrations were generated with ChatGPT (OpenAI image generation)
+on 2026-10-21. Each location used an independent theme and prompt. Their source is
+ChatGPT generation, not a download from the reference video. Generated images are
+embedded in assets/diy-generated/*.svg. See ARTWORK.json for hashes and themes.
+14 张鲸鱼娘配图均由 ChatGPT 生成，按位置使用独立主题与提示词。
+
+CHARACTER / 角色
+Name: Whale-chan / DeepSeek 鲸鱼娘（大肥鱼），蓝发女仆形象。
+Work/context: community-created DeepSeek anthropomorphic fan character, not an
+official DeepSeek mascot or endorsed DeepSeek artwork.
+Reference: user-supplied screenshot; public reference video:
+https://www.bilibili.com/video/BV16qhJ6qEHG/
+The video's indexed description credits @ZipZipPipe and @上善无形. These are
+reference credits, not verified identification of the complete rights holder(s).
+Underlying character rights holder and redistribution permission: not independently
+verified; no authorization document is included. ChatGPT generation describes the
+production method and does not establish permission for an underlying character.
+参考形象作者署名来自视频介绍；完整权利人及角色再分发授权尚未核实。
+不得将“ChatGPT 生成”表述为已获得原角色授权或 DeepSeek 官方授权。
+
+DECORATIVE ASSETS / 装饰素材
+Paper, tape, frames, doodles and hand-lettered headings are project-created SVGs or
+ChatGPT-generated raster decorations, some manually arranged or refined. They are
+not the previous Koe illustrations. No Koe photos, personal input photographs,
+Archive folders, reference screenshot or video frames are included in this package.
+The DeepSeek name and whale mark identify the host application; no affiliation or
+ownership of its marks is claimed.
+
+FONTS / 字体
+LXGW WenKai: Copyright LXGW and Klee Project Authors; SIL Open Font License 1.1.
+https://github.com/lxgw/LxgwWenKai
+Full license: assets/LXGWWenKai-OFL.txt
+Long Cang: Copyright 2018 The Long Cang Project Authors; SIL Open Font License 1.1.
+https://github.com/googlefonts/longcang
+Full license: assets/LongCang-OFL-v215.txt
+
+LICENSE SCOPE / 授权范围
+Project-authored code is MIT licensed. The contributor permits redistribution of
+project-created decorations and generated outputs to the extent of their rights;
+this does not grant rights belonging to character creators, font authors or brands.
+Third-party rights and the font licenses remain applicable. Character clearance
+is outstanding and is explicitly disclosed to Workshop reviewers.

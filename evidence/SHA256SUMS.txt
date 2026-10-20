@@ -1,0 +1,2 @@
+baba8b417596a255f271c8fc606d0f67b8c2061e39f157a7fc41f357be4541b3  diy-journal-dark.png
+50fa86cb0273f17c1da0c78c75f1189a37516e46edb2e8efe3a69760fdac80db  diy-journal-light.png

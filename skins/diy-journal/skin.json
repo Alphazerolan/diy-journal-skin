@@ -1,0 +1,58 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "diy-journal",
+  "name": "DIY手账本",
+  "nameEn": "DIY Journal",
+  "version": "1.14.1",
+  "author": "Alphazerolan",
+  "license": "See NOTICE; fonts: SIL OFL 1.1",
+  "tagline": "一页一贴，拼出你喜欢的界面。",
+  "description": "按区域独立选择照片布局、胶带纹样与颜色，支持不设置照片、双照片调换及实际皮肤场景预览。",
+  "tags": [
+    "diy",
+    "journal",
+    "paper",
+    "collage",
+    "local"
+  ],
+  "accent": "#237fab",
+  "order": 86,
+  "contributes": {
+    "stylesheet": "skin.css",
+    "patches": "patches.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/diy-generated/home.svg",
+        "scrim": "linear-gradient(rgba(252, 254, 255, .10) 0%, rgba(240, 250, 252, .16) 55%, rgba(226, 242, 247, .22) 100%)"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/diy-generated/home.svg",
+        "scrim": "linear-gradient(rgba(16, 30, 44, .26) 0%, rgba(20, 36, 52, .34) 55%, rgba(12, 24, 36, .44) 100%)"
+      }
+    }
+  },
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  },
+  "requires": {
+    "contracts": [
+      {
+        "apiVersion": "x-org.linxin666.skin-center/v1alpha1",
+        "kind": "SkinHooks",
+        "optional": true
+      }
+    ]
+  },
+  "facets": {
+    "client": {
+      "entry": "hooks.mjs",
+      "apiVersion": "x-org.linxin666.skin-center/v1alpha1"
+    }
+  },
+  "attribution": "Illustrations generated with ChatGPT (OpenAI image generation), based on a user-provided Whale-chan reference. Character and font credits: NOTICE.",
+  "sourceUrl": "https://github.com/Alphazerolan/diy-journal-skin"
+}

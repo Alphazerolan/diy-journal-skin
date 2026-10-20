@@ -1,0 +1,275 @@
+/* diy-journal —— L1 层：纸片手账的配色。
+ *
+ * 取色依据：两张新背景的实测采样。浅色背景主色相 197°（范围 189–205°），主色如
+ * #71aacc / #99ddeb / #4c80a4；深色背景（黄昏空镜）偏暖，主色 #39566d / #21374a，
+ * 青蓝平均 207°。所以：面用「纸白 + 青」，强调用 #237fab，深色主题保留冷青玻璃
+ * 以压住暖色画面，暖金只出现在状态色里。
+ *
+ * 用法原则：面尽量薄（插画是主角），只有文字所在的最小面接近实心。
+ */
+
+body {
+  /* 面：底 → 面板 1/2/3 */
+  --dsw-alias-bg-base: rgba(252, 254, 255, .40);
+  --dsw-alias-bg-layer-1: rgba(247, 253, 254, .54);
+  --dsw-alias-bg-layer-2: rgba(240, 250, 252, .64);
+  --dsw-alias-bg-layer-3: rgba(232, 246, 250, .74);
+  --dsw-alias-bg-module-platform: rgba(240, 250, 252, .64);
+  --dsw-alias-bg-overlay: rgba(250, 253, 254, .92);
+  --dsw-alias-bg-multi-select: rgba(203, 233, 242, .84);
+  --dsw-alias-bg-skeleton: rgba(20, 54, 68, .07);
+  --dsw-alias-bg-mask-1: rgba(18, 44, 56, .55);
+  --dsw-alias-bg-mask-2: rgba(18, 44, 56, .30);
+  --dsw-alias-bg-mask-3: rgba(18, 44, 56, .62);
+  --dsw-alias-bg-mask-photo: rgba(12, 30, 38, .88);
+
+  /* 线条：以采样到的 #4c80a4 为锚 */
+  --dsw-alias-border-l1: rgba(76, 128, 164, .18);
+  --dsw-alias-border-l2-darkmode-thin: rgba(76, 128, 164, .24);
+  --dsw-alias-border-l2: rgba(76, 128, 164, .34);
+  --dsw-alias-border-l3: rgba(76, 128, 164, .46);
+  --dsw-alias-border-l4: rgba(76, 128, 164, .60);
+  --dsw-alias-border-inverted: rgba(255, 255, 255, .44);
+  --dsw-alias-border-inverted2: rgba(255, 255, 255, .68);
+
+  /* 文字 */
+  --dsw-alias-label-primary: #123c66;
+  --dsw-alias-label-secondary: #315e80;
+  --dsw-alias-label-tertiary: #477b9b;
+  --dsw-alias-label-caption: #588aa7;
+  --dsw-alias-label-dimmed: #8aa7b3;
+  --dsw-alias-label-primary-dimmed: #3a5f72;
+  --dsw-alias-label-primary-foreground: #ffffff;
+  --dsw-alias-label-primary-inverted: #ffffff;
+
+  /* 强调色四件套（缺一会被 catalog 判 primary action 不合规） */
+  --dsw-alias-brand-primary: #237fab;
+  --dsw-alias-brand-primary-invert: #ffffff;
+  --dsw-alias-brand-primary-new-colorprimary-new-color: #237fab;
+  --dsw-alias-brand-text: #154f78;
+
+  --dsw-alias-button-primary-fill: #237fab;
+  --dsw-alias-button-primary-hover: #2798c7;
+  --dsw-alias-button-primary-dimmed: #c4eefb;
+  --dsw-alias-button-info-fill: #237fab;
+  --dsw-alias-button-info-hover: #2798c7;
+  --dsw-alias-button-contrast-fill: #17495e;
+  --dsw-alias-button-elevated-fill: rgba(255, 255, 255, .95);
+  --dsw-alias-button-floating-fill: rgba(255, 255, 255, .92);
+  --dsw-alias-button-floating-hover: #e7f4f9;
+  --dsw-alias-button-ghost-active-fill: #b9eef9;
+  --dsw-alias-button-ghost-active-border: #70c8e5;
+  --dsw-alias-button-ghost-active-hover: #a5e6f5;
+  --dsw-alias-button-tool-bar-fill-invisible: rgba(45, 123, 168, .28);
+  --dsw-alias-button-tool-bar-fill: rgba(45, 123, 168, .42);
+  --dsw-alias-button-tool-bar-hover: rgba(45, 123, 168, .56);
+
+  --dsw-alias-interactive-bg-hover: rgba(45, 123, 168, .08);
+  --dsw-alias-interactive-bg-hover-accent: rgba(45, 123, 168, .18);
+  --dsw-alias-interactive-bg-active: rgba(45, 123, 168, .14);
+  --dsw-alias-interactive-bg-hover-solid: #e7f4f9;
+  --dsw-alias-interactive-bg-hover-danger: rgba(192, 57, 43, .08);
+
+  /* 代码与引用：纸感 */
+  --dsw-alias-markdown-code-block: rgba(238, 248, 251, .78);
+  --dsw-alias-markdown-code-block-banner: rgba(230, 244, 249, .84);
+  --dsw-alias-markdown-inline-code: rgba(232, 246, 251, .76);
+  --dsw-alias-markdown-tag: rgba(232, 246, 251, .76);
+  --dsw-alias-markdown-citation: rgba(224, 240, 246, .68);
+  --dsw-alias-markdown-placeholder: rgba(238, 248, 251, .58);
+  --dsw-alias-markdown-code-segment-selected: rgba(255, 255, 255, .85);
+  --dsw-alias-markdown-code-segment-unselected: rgba(246, 252, 253, .58);
+
+  --dsw-alias-scrollbar-bg-l1: #b9dde9;
+  --dsw-alias-scrollbar-bg-l2: #b9dde9;
+  --dsw-alias-scrollbar-hover-l1: #237fab;
+  --dsw-alias-scrollbar-hover-l2: #237fab;
+
+  --dsw-alias-state-business-primary: #237fab;
+  --dsw-alias-state-business-tertiary: #d6eef7;
+  --dsw-alias-state-success-primary: #2f8f6a;
+  --dsw-alias-state-success-secondary: #4fb98a;
+  --dsw-alias-state-success-tertiary: #dcf2e8;
+  --dsw-alias-state-warn-primary: #b8862f;
+  --dsw-alias-state-warn-secondary: #d9a94f;
+  --dsw-alias-state-warn-tertiary: #fbf1dc;
+  --dsw-alias-state-warn-label: #a3732a;
+  --dsw-alias-state-error-primary: #c0392b;
+  --dsw-alias-state-error-secondary: #e0705f;
+  --dsw-alias-toast-bg: #17495e;
+  --dsw-alias-tooltip-bg: #123c66;
+  --dsw-alias-tooltip-fg: #eaf6f9;
+
+  /* 文字所在的最小面 */
+  --dsw-specific-bubble: rgba(255, 255, 255, .72);
+  --dsw-specific-bubble-highlight: rgba(219, 240, 248, .85);
+  --dsw-specific-input-major: rgba(255, 255, 255, .78);
+  --dsw-specific-login-input: rgba(255, 255, 255, .78);
+  --dsw-specific-menu: rgba(250, 253, 254, .90);
+  --dsw-specific-selector: rgba(238, 249, 252, .88);
+  --dsw-specific-tip: rgba(250, 253, 254, .92);
+  --dsw-specific-sidebar-fill: rgba(202, 237, 253, .86) !important;
+}
+
+body[data-ds-dark-theme] {
+  --dsw-alias-bg-base: rgba(16, 32, 44, .52);
+  --dsw-alias-bg-layer-1: rgba(23, 42, 56, .62);
+  --dsw-alias-bg-layer-2: rgba(31, 53, 68, .70);
+  --dsw-alias-bg-layer-3: rgba(39, 64, 80, .78);
+  --dsw-alias-bg-module-platform: rgba(31, 53, 68, .70);
+  --dsw-alias-bg-overlay: rgba(20, 38, 50, .92);
+  --dsw-alias-bg-multi-select: rgba(44, 76, 92, .82);
+  --dsw-alias-bg-skeleton: rgba(255, 255, 255, .06);
+  --dsw-alias-bg-mask-1: rgba(0, 0, 0, .55);
+  --dsw-alias-bg-mask-2: rgba(0, 0, 0, .30);
+  --dsw-alias-bg-mask-3: rgba(0, 0, 0, .62);
+  --dsw-alias-bg-mask-photo: rgba(6, 14, 20, .90);
+
+  --dsw-alias-border-l1: rgba(150, 205, 226, .15);
+  --dsw-alias-border-l2-darkmode-thin: rgba(150, 205, 226, .19);
+  --dsw-alias-border-l2: rgba(150, 205, 226, .25);
+  --dsw-alias-border-l3: rgba(150, 205, 226, .33);
+  --dsw-alias-border-l4: rgba(150, 205, 226, .43);
+  --dsw-alias-border-inverted: rgba(255, 255, 255, .40);
+  --dsw-alias-border-inverted2: rgba(255, 255, 255, .62);
+
+  --dsw-alias-label-primary: #e6f0f5;
+  --dsw-alias-label-secondary: #b9cdd8;
+  --dsw-alias-label-tertiary: #93aeba;
+  --dsw-alias-label-caption: #7d99a6;
+  --dsw-alias-label-dimmed: #5f7c89;
+  --dsw-alias-label-primary-dimmed: #c3d5de;
+  --dsw-alias-label-primary-foreground: #0b1a22;
+  --dsw-alias-label-primary-inverted: #0b1a22;
+
+  --dsw-alias-brand-primary: #7fc2dd;
+  --dsw-alias-brand-primary-invert: #0b1a22;
+  --dsw-alias-brand-primary-new-colorprimary-new-color: #7fc2dd;
+  --dsw-alias-brand-text: #c7e6f2;
+
+  --dsw-alias-button-primary-fill: #2f7f9d;
+  --dsw-alias-button-primary-hover: #3a93b4;
+  --dsw-alias-button-primary-dimmed: #1e4351;
+  --dsw-alias-button-info-fill: #2f7f9d;
+  --dsw-alias-button-info-hover: #3a93b4;
+  --dsw-alias-button-contrast-fill: #17495e;
+  --dsw-alias-button-elevated-fill: rgba(28, 48, 60, .95);
+  --dsw-alias-button-floating-fill: rgba(22, 40, 52, .92);
+  --dsw-alias-button-floating-hover: rgba(38, 62, 76, .95);
+  --dsw-alias-button-ghost-active-fill: rgba(38, 64, 78, .95);
+  --dsw-alias-button-ghost-active-border: #4d9db8;
+  --dsw-alias-button-ghost-active-hover: rgba(48, 80, 96, .95);
+  --dsw-alias-button-tool-bar-fill-invisible: rgba(127, 194, 221, .28);
+  --dsw-alias-button-tool-bar-fill: rgba(127, 194, 221, .42);
+  --dsw-alias-button-tool-bar-hover: rgba(127, 194, 221, .56);
+
+  --dsw-alias-interactive-bg-hover: rgba(255, 255, 255, .07);
+  --dsw-alias-interactive-bg-hover-accent: rgba(127, 194, 221, .18);
+  --dsw-alias-interactive-bg-active: rgba(127, 194, 221, .14);
+  --dsw-alias-interactive-bg-hover-solid: rgba(38, 64, 78, .95);
+  --dsw-alias-interactive-bg-hover-danger: rgba(224, 112, 95, .12);
+
+  --dsw-alias-markdown-code-block: rgba(18, 36, 48, .72);
+  --dsw-alias-markdown-code-block-banner: rgba(15, 31, 42, .78);
+  --dsw-alias-markdown-inline-code: rgba(21, 41, 54, .72);
+  --dsw-alias-markdown-tag: rgba(21, 41, 54, .72);
+  --dsw-alias-markdown-citation: rgba(19, 38, 50, .66);
+  --dsw-alias-markdown-placeholder: rgba(18, 36, 48, .60);
+  --dsw-alias-markdown-code-segment-selected: rgba(46, 78, 94, .85);
+  --dsw-alias-markdown-code-segment-unselected: rgba(21, 41, 54, .60);
+
+  --dsw-alias-scrollbar-bg-l1: #2c4c5a;
+  --dsw-alias-scrollbar-bg-l2: #2c4c5a;
+  --dsw-alias-scrollbar-hover-l1: #4d94ad;
+  --dsw-alias-scrollbar-hover-l2: #4d94ad;
+
+  --dsw-alias-state-business-primary: #7fc2dd;
+  --dsw-alias-state-business-tertiary: rgba(44, 76, 92, .82);
+  --dsw-alias-state-success-primary: #58b98a;
+  --dsw-alias-state-success-secondary: #6fd3a2;
+  --dsw-alias-state-success-tertiary: rgba(28, 62, 48, .80);
+  --dsw-alias-state-warn-primary: #d9a94f;
+  --dsw-alias-state-warn-secondary: #e8bf70;
+  --dsw-alias-state-warn-tertiary: rgba(64, 48, 20, .80);
+  --dsw-alias-state-warn-label: #e0b768;
+  --dsw-alias-state-error-primary: #e0705f;
+  --dsw-alias-state-error-secondary: #ef8d7d;
+  --dsw-alias-toast-bg: #1d4351;
+  --dsw-alias-tooltip-bg: #e6f0f5;
+  --dsw-alias-tooltip-fg: #123c66;
+
+  --dsw-specific-bubble: rgba(26, 47, 60, .74);
+  --dsw-specific-bubble-highlight: rgba(44, 76, 92, .85);
+  --dsw-specific-input-major: rgba(24, 45, 58, .78);
+  --dsw-specific-login-input: rgba(24, 45, 58, .78);
+  --dsw-specific-menu: rgba(20, 37, 48, .92);
+  --dsw-specific-selector: rgba(26, 47, 60, .90);
+  --dsw-specific-tip: rgba(20, 37, 48, .94);
+  --dsw-specific-sidebar-fill: rgba(18, 43, 64, .94) !important;
+}
+
+/* 另一套组件 token（Aion）一并跟色 */
+body {
+  --aion-bg-base: rgba(255, 255, 255, .88);
+  --aion-bg-1: rgba(247, 253, 254, .54);
+  --aion-bg-2: rgba(240, 250, 252, .68);
+  --aion-bg-3: rgba(45, 123, 168, .22);
+  --aion-bg-4: rgba(45, 123, 168, .34);
+  --aion-bg-hover: rgba(45, 123, 168, .08);
+  --aion-bg-active: rgba(45, 123, 168, .14);
+  --aion-text-primary: #123c66;
+  --aion-text-secondary: #315e80;
+  --aion-text-tertiary: #477b9b;
+  --aion-text-disabled: #8aa7b3;
+  --aion-primary: #237fab;
+  --aion-success: #2f8f6a;
+  --aion-warning: #b8862f;
+  --aion-danger: #c0392b;
+  --aion-brand: #70c8e5;
+  --aion-aou-1: rgba(255, 255, 255, .90);
+  --aion-aou-2: rgba(211, 237, 246, .90);
+  --aion-aou-3: #a9dcec;
+  --aion-aou-4: #63aecb;
+  --aion-aou-5: #237fab;
+  --aion-aou-6: #17495e;
+  --aion-fill-2: rgba(45, 123, 168, .06);
+  --aion-fill-3: rgba(45, 123, 168, .14);
+  --aion-border-base: rgba(76, 128, 164, .40);
+  --aion-overlay-shadow: 0 10px 30px rgba(18, 44, 56, .16);
+  --aion-font-sans: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --aion-font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+body[data-ds-dark-theme] {
+  --aion-bg-base: rgba(20, 38, 50, .86);
+  --aion-bg-1: rgba(23, 42, 56, .62);
+  --aion-bg-2: rgba(31, 53, 68, .72);
+  --aion-bg-3: rgba(127, 194, 221, .20);
+  --aion-bg-4: rgba(127, 194, 221, .30);
+  --aion-bg-hover: rgba(255, 255, 255, .07);
+  --aion-bg-active: rgba(127, 194, 221, .14);
+  --aion-text-primary: #e6f0f5;
+  --aion-text-secondary: #b9cdd8;
+  --aion-text-tertiary: #93aeba;
+  --aion-text-disabled: #5f7c89;
+  --aion-primary: #7fc2dd;
+  --aion-success: #58b98a;
+  --aion-warning: #d9a94f;
+  --aion-danger: #e0705f;
+  --aion-brand: #7fc2dd;
+  --aion-aou-1: rgba(31, 53, 68, .90);
+  --aion-aou-2: rgba(39, 64, 80, .92);
+  --aion-aou-3: #2f6274;
+  --aion-aou-4: #3d92b4;
+  --aion-aou-5: #5fb0cd;
+  --aion-aou-6: #9ad6ea;
+  --aion-fill-2: rgba(127, 194, 221, .10);
+  --aion-fill-3: rgba(127, 194, 221, .18);
+  --aion-border-base: rgba(150, 205, 226, .22);
+  --aion-overlay-shadow: 0 12px 34px rgba(0, 0, 0, .48);
+}
+
+/* 版本标记 */
+body {
+  --cg-skin-version: "v28-reference-glass-2026-10-10";
+}
