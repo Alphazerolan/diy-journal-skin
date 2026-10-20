@@ -10,10 +10,10 @@ runtime credentials. Character clearance remains disclosed in the skin NOTICE.
 
 ### 浅色 / Light
 
-![Light theme](evidence/diy-journal-light.png)
+![Light theme](evidence/diy-journal-light.jpg)
 
 ### 深色 / Dark
 
-![Dark theme](evidence/diy-journal-dark.png)
+![Dark theme](evidence/diy-journal-dark.jpg)
 
 [Verification / 发布检查](VERIFICATION.md)

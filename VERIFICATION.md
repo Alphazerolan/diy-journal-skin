@@ -29,8 +29,8 @@ Default illustrations are 14 ChatGPT-generated outputs listed in ARTWORK.json.
 Captured through Windows computer-use from actual Harness 0.2.1-rc.2, at 1282 x 821.
 Light and dark are native app theme selections, not simulated color conversions.
 The sidebar and unrelated pet were temporarily hidden for privacy and restored afterwards.
-PNG files under evidence/ are original captures. JPEG catalog previews are format conversions.
-截图来自实际程序的浅色／深色模式；投稿正文引用与 evidence/ 完全相同的 PNG 文件。
+JPEG files under evidence/ are original captures. Catalog previews are separately encoded JPEG copies.
+截图来自实际程序的浅色／深色模式；投稿正文引用与 evidence/ 完全相同的 JPEG 文件。
 
 ## Remaining review / 待审核项
 
