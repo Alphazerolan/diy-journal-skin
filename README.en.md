@@ -3,20 +3,9 @@
 A notebook-inspired Harness skin with paper, tape, framed photos, paper planes,
 folding envelopes and an address-book remote-access panel.
 
-[中文](README.md) · [Install / update / remove](INSTALL.md) · [Skin guide](skins/diy-journal/README.md) · [Feature tour](docs/FEATURES.md) · [Optional editor](https://github.com/Alphazerolan/diy-journal-settings)
+[中文](README.md) · [Install / update / remove](INSTALL.md) · [Skin guide](skins/diy-journal/README.md) · [Optional editor](https://github.com/Alphazerolan/diy-journal-settings)
 
-## Highlights
-
-- Illustrated home and settings pages, book-like sidebar and paper account cards.
-- Paper-plane status treatments, collapsible envelope and blue workspace clipboard.
-- Matching automation menus, approval cards, tool panels and opaque dialogs.
-- Separate editor for photos, layouts, position, rotation, borders, captions and tape.
-
-![Component preview](docs/demo/preview-light.png)
-
-Download the full repository and open `docs/demo/index.html` to explore theme,
-motion, envelope and workspace sample states. These use shipped CSS with fictional
-data, not a live Harness connection. See the [full tour](docs/FEATURES.md).
+The incomplete feature demonstration has been withdrawn while omitted surfaces, including message bubbles, are reviewed. The skin package and redacted app captures remain available.
 
 ## Actual app captures
 

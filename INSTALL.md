@@ -52,10 +52,3 @@ Windows editor requires Python 3.9+. Default skin artwork works without it.
 先切换其他皮肤，再移除 `diy-journal` 目录。编辑器插件独立卸载；保留个人图片备份。
 Switch to another skin, then remove the skin directory. Uninstall the editor
 separately and retain your personal-photo backup.
-
-## 本地看演示 / Open the demo locally
-
-完整下载仓库后打开 `docs/demo/index.html`。它使用仓库内素材，可离线查看。
-GitHub 文件页面只显示源码；仓库 README 和功能说明提供渲染好的图片。
-Download the entire repository and open `docs/demo/index.html` in your browser.
-GitHub's file viewer displays source code; rendered previews are in the README.

@@ -1,6 +1,6 @@
 # Contributing / 贡献说明
 
-请先阅读 [INSTALL.md](INSTALL.md)、[功能导览](docs/FEATURES.md) 和
+请先阅读 [INSTALL.md](INSTALL.md) 和
 [素材声明](skins/diy-journal/NOTICE)。本仓库只维护皮肤与展示文档；编辑器问题请到
 [插件仓库](https://github.com/Alphazerolan/diy-journal-settings)反馈。
 
@@ -8,7 +8,7 @@
 浅色、深色和较窄窗口；更新演示截图。上传前隐藏无授权宠物，遮盖账号、余额、
 路径、会话标题等个人信息。不要提交个人照片、运行配置或密钥。
 
-Read the installation, feature and source guides first. Run
+Read the installation and source guides first. Run
 `node scripts/check-release.mjs` with Node.js 20+. For visual changes, inspect
 both themes and a narrow viewport. Redact personal information and hide
 unlicensed pets before capturing screenshots. Keep personal photos, runtime

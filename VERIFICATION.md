@@ -45,3 +45,7 @@ Underlying reference-character rights and redistribution permission are unverifi
 Generation by ChatGPT is declared as provenance, not as character authorization.
 Workshop acceptance and hook approval remain the maintainers' decision.
 角色参考形象的完整权利人及授权尚未核实；投稿以草稿说明这一项，不勾选已获授权。
+
+## Demo withdrawal / 演示撤下
+
+The initial gallery passed its narrow fixture checks but omitted message bubbles and other surfaces. Its files and public links have been withdrawn. Those checks do not establish full visual coverage. Skin code and the four native captures are unchanged.

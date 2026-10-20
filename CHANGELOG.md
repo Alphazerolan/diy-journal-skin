@@ -1,5 +1,10 @@
 # Changelog / 更新记录
 
+## 2026-10-21 — Feature demo withdrawn / 功能演示撤下
+
+- Withdrew the incomplete feature gallery and its images; message bubbles and other styled surfaces were omitted. Skin code and redacted app captures unchanged.
+- 撤下不完整的功能演示，补齐核对后再展示；皮肤包和脱敏实机截图保留。
+
 ## 1.14.1 documentation update — 2026-10-21
 
 - Replaced previews with full-sidebar main and settings captures in both themes.
