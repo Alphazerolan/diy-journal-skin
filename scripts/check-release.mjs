@@ -38,6 +38,15 @@ for (const file of walk(root)) {
 for (const name of ['README.md', 'README.en.md', 'INSTALL.md', 'LICENSE', 'LICENSE-ARTWORK',
   'skins/diy-journal/NOTICE', 'skins/diy-journal/ARTWORK.json']) reference(path.join(root, 'check'), name);
 const hash = p => createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const artwork = JSON.parse(fs.readFileSync(path.join(skin, 'ARTWORK.json'), 'utf8'));
+for (const record of artwork.images) {
+  const svg = fs.readFileSync(path.join(skin, `assets/diy-generated/${record.id}.svg`), 'utf8');
+  const embedded = [...svg.matchAll(/data:image\/(png|webp);base64,([A-Za-z0-9+/=]+)/g)];
+  if (embedded.length !== 1) { failures.push(`Expected one illustration: ${record.id}`); continue; }
+  const data = Buffer.from(embedded[0][2], 'base64');
+  if (createHash('sha256').update(data).digest('hex') !== record.sha256) failures.push(`Artwork hash mismatch: ${record.id}`);
+  if (record.encoding?.format === 'WebP' && (embedded[0][1] !== 'webp' || data.toString('ascii', 0, 4) !== 'RIFF' || data.toString('ascii', 8, 12) !== 'WEBP')) failures.push(`Invalid WebP payload: ${record.id}`);
+}
 const sums = fs.readFileSync(path.join(root, 'evidence/SHA256SUMS.txt'), 'utf8').trim().split(/\r?\n/);
 if (sums.length !== 6) failures.push('Expected six native screenshots');
 for (const line of sums) {

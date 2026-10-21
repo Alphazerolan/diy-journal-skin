@@ -2,7 +2,7 @@
 
 [中文说明](README.zh.md)
 
-A paper-and-tape journal skin for DeepSeek Harness. Version 1.14.1 includes 14
+A paper-and-tape journal skin for DeepSeek Harness. Version 1.14.2 includes 14
 ChatGPT-generated Whale-chan illustrations, handwritten headings, an address-book
 remote-access dialog, notebook settings pages and light/dark palettes.
 

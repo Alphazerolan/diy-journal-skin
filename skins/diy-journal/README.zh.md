@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-适用于 DeepSeek Harness 的纸张、胶带和手绘风皮肤。1.14.1 包含 14 张
+适用于 DeepSeek Harness 的纸张、胶带和手绘风皮肤。1.14.2 包含 14 张
 ChatGPT 生成的鲸鱼娘配图、手写标题、电话簿远程访问窗口和浅色／深色配色。
 
 ## 安装

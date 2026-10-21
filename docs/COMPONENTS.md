@@ -855,9 +855,9 @@ These two pages show account/balance and usage statistics, including the sidebar
 
 ### 预设配图 / Preset illustrations
 
-以下为发布包内的 14 张原始配图，未叠加照片白边、胶带或界面控件。图片由 ChatGPT 生成；角色及素材说明见 [NOTICE](../skins/diy-journal/NOTICE)。
+以下为 14 张预设配图的原始 PNG（发布包采用 WebP 压缩编码），未叠加照片白边、胶带或界面控件。图片由 ChatGPT 生成；角色及素材说明见 [NOTICE](../skins/diy-journal/NOTICE)。
 
-These are the 14 original illustrations included in the release, without photo borders, tape or interface controls. Images were generated with ChatGPT; see [NOTICE](../skins/diy-journal/NOTICE) for character and artwork information.
+These are the 14 original PNG illustrations (the release uses WebP compression), without photo borders, tape or interface controls. Images were generated with ChatGPT; see [NOTICE](../skins/diy-journal/NOTICE) for character and artwork information.
 
 | 配图 / Illustration | 配图 / Illustration |
 | --- | --- |
