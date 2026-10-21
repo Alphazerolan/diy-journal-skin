@@ -22,7 +22,7 @@ The optional style menu plugin currently supports Windows and requires Python 3.
 
 ## Preview
 
-Below are actual DSH window captures. See the [static component gallery](docs/COMPONENTS.md) for light and dark examples of bubbles, paper planes, folded envelopes, menus and tool panels.
+Below are actual DSH window captures. See the [static component gallery](docs/COMPONENTS.md) for specially designed bubbles, session paper planes, trigger-notification envelopes, task board, account card and more, explained by function with light and dark examples.
 
 ### Home · Light
 
