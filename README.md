@@ -24,6 +24,18 @@
 
 ![深色主界面](evidence/diy-journal-dark.jpg)
 
+### 对话气泡 · 用户与 DeepSeek 回复
+
+用户消息采用蓝色方格便签，DeepSeek 回复采用带手写署名与回形针的横线信纸，代码块也配有折页样式。以下为皮肤样式渲染的示例对话。
+
+**浅色**
+
+![浅色用户消息与 DeepSeek 回复气泡](evidence/diy-journal-messages-light.png)
+
+**深色**
+
+![深色用户消息与 DeepSeek 回复气泡](evidence/diy-journal-messages-dark.png)
+
 ### 设置 · 浅色
 
 ![浅色设置](evidence/diy-journal-settings-light.jpg)
