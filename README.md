@@ -4,7 +4,7 @@
 
 为了贴合手账本自由拼贴的特性，我们还制作了 [DIY 手账本样式菜单插件](https://github.com/Alphazerolan/diy-journal-settings)。你可以在插件中调整各个位置的布局与样式、更换图片，还能搭配胶带、白边和题字，组装属于自己的手账本。
 
-[English](README.en.md) · [安装与更新](INSTALL.md) · [详细说明](skins/diy-journal/README.zh.md)
+[English](README.en.md) · [安装与更新](INSTALL.md) · [组件静态预览](docs/COMPONENTS.md) · [详细说明](skins/diy-journal/README.zh.md)
 
 ## 使用
 
@@ -15,6 +15,8 @@
 样式菜单为可选插件，目前支持 Windows，需要 Python 3.9+。
 
 ## 效果预览
+
+以下为 DSH 实机截图。气泡、小飞机、折叠信封、菜单与工具面板等局部样式，见[组件静态预览展示](docs/COMPONENTS.md)（含浅色／深色）。
 
 ### 主界面 · 浅色
 

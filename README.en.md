@@ -9,7 +9,7 @@ To bring the freedom of a scrapbook to the skin, we also created the
 Use it to adjust layouts and styles in each area, replace images, and combine tape,
 photo borders and captions to make the journal your own.
 
-[中文](README.md) · [Install and update](INSTALL.md) · [Detailed guide](skins/diy-journal/README.md)
+[中文](README.md) · [Install and update](INSTALL.md) · [Static component previews](docs/COMPONENTS.md) · [Detailed guide](skins/diy-journal/README.md)
 
 ## Use
 
@@ -21,6 +21,8 @@ in Settings → Skins. See the [installation guide](INSTALL.md) for paths and up
 The optional style menu plugin currently supports Windows and requires Python 3.9+.
 
 ## Preview
+
+Below are actual DSH window captures. See the [static component gallery](docs/COMPONENTS.md) for light and dark examples of bubbles, paper planes, folded envelopes, menus and tool panels.
 
 ### Home · Light
 
