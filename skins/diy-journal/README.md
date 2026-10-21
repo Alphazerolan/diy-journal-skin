@@ -23,12 +23,17 @@ No-photo areas collapse. The skin remains usable without this plugin.
 
 ## Source and character credits
 
-Illustrations: **generated with ChatGPT**, 2026-10-21. Character: **Whale-chan /
-DeepSeek 鲸鱼娘（大肥鱼）**, a community fan character. Reference video credits
-@ZipZipPipe and @上善无形; underlying character rights and permission remain
-unverified. This is not official DeepSeek artwork. See [NOTICE](NOTICE) and
-[ARTWORK.json](ARTWORK.json) for reference, generation and font details.
-The older Koe illustrations and all personal photo folders are excluded.
+This skin depicts **DeepSeek 鲸鱼娘（大肥鱼）/ Whale-chan**, a fan character, with the following credits:
+
+- **Original character design:** [上善](https://www.pixiv.net/users/62155430), the whale-girl character.
+- **DeepSeek maid redesign:** [ZipZipPipe](https://www.pixiv.net/users/18604994), the maid interpretation incorporating DeepSeek elements, generated with GPT Image 2.
+- **This skin:** [Alphazerolan](https://github.com/Alphazerolan/diy-journal-skin), who generated 14 separately themed illustrations with ChatGPT on 2026-10-21 and created the journal layout, decoration and skin integration.
+
+This is an unofficial fan work. Character-design rights remain with the respective creators;
+character redistribution permission has not been independently verified.
+See [NOTICE](NOTICE) for attribution sources and license scope, and [ARTWORK.json](ARTWORK.json)
+for illustration themes and hashes. Fonts retain their OFL licenses. Reference-video frames,
+illustration files from other skins and personal photos are not bundled.
 
 ## Compatibility and limits
 
