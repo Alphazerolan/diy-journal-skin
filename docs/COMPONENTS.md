@@ -2,13 +2,13 @@
 
 [返回首页 / Back to README](../README.md) · [实机窗口截图 / Actual DSH windows](../README.md#效果预览) · [DIY 样式菜单 / DIY style menu](https://github.com/Alphazerolan/diy-journal-settings)
 
-这里按实际功能展示经过专门设计并已实装的皮肤组件。每节分别说明组件的用途与视觉设计，同一功能的收起／展开状态放在一起。仅统一适配底色、边框等默认样式的菜单、卡片与弹窗不在本页展示。
+这里按使用场景展示经过专门设计并已实装的皮肤组件。每节分别说明组件的用途与视觉设计，同一功能的收起／展开状态放在一起。仅统一适配底色、边框等默认样式的菜单、卡片与弹窗不在本页展示。
 
-This gallery groups specially designed, implemented skin components by their actual function. Each section explains both purpose and visual design, keeping collapsed and expanded states together. Generic menus, cards and dialogs that only received shared surface styling are omitted.
+This gallery groups specially designed, implemented skin components by usage. Each section explains both purpose and visual design, keeping collapsed and expanded states together. Generic menus, cards and dialogs that only received shared surface styling are omitted.
 
-图片使用当前发布皮肤样式与虚构示例数据生成，属于静态展示，不是运行中 DSH 的截图，也不会执行任务。首页保留实机窗口截图。每组含浅色与深色；部分专用窗口在深色主题下仍保留浅色纸张，这是当前皮肤的实际样式。图片不包含个人信息或桌面宠物。排版与可用信息可能随 DSH 版本、窗口大小和内容变化。
+除标注为实机局部截图的菜单外，组件图片使用当前发布皮肤样式与虚构示例数据生成，不会执行任务。首页保留实机窗口截图。静态样例提供浅色与深色；用户提供的四张菜单截图按原图展示；部分专用窗口在深色主题下仍保留浅色纸张，这是当前皮肤的实际样式。图片不包含个人信息或桌面宠物。排版与可用信息可能随 DSH 版本、窗口大小和内容变化。
 
-Images use the released skin styles and fictional sample data. These are static examples, not running DSH screenshots or executable tasks. Actual window captures remain in the README. Each group includes light and dark variants. Some dedicated windows retain light paper in the dark theme, matching the current skin. No personal information or desktop-pet artwork is included. Layout and available information may vary with DSH version, window size and content.
+Except for menus marked as actual captures, component images use the released skin styles and fictional sample data; they do not execute tasks. Actual window captures remain in the README. Static examples include light and dark variants. The four user-supplied menu captures are shown as provided. Some dedicated windows retain light paper in the dark theme, matching the current skin. No personal information or desktop-pet artwork is included. Layout and available information may vary with DSH version, window size and content.
 
 [专门设计的模块总览 / Design inventory](#design-inventory)
 
@@ -28,12 +28,10 @@ The inventory below groups implemented designs by usage, not by artwork producti
 
 | 模块 / Module | 功能 / Purpose | 专门设计 / Design |
 | --- | --- | --- |
-| [主界面手账页 / Home journal](#home-layout) | 承载欢迎区和新会话入口。 / Hosts the welcome area and entry into a new conversation. | “手账本”手写标题、铅笔与涂画、保留的“探索未至之境”纸片标题、纸页与装订边。 / Handwritten journal title, pencil and scribbles, the retained welcome-title paper sticker, page and binding edge. |
-| [照片拼贴区域 / Photo placements](#home-layout) | 为主界面、侧栏和设置页提供配图位置。 / Provides image placements on the home screen, sidebars and settings pages. | 照片白边、题字、胶带与拼贴布局；无照片区域隐藏照片及附属装饰。调整功能由独立样式菜单提供。 / Photo borders, captions, washi tape and collage layouts; empty slots hide the photo and its decorations. Editing is provided by the separate style-menu plugin. |
 | [新会话按钮 / New conversation](#new-conversation) | 开始一段新对话。 / Starts a new conversation. | 纸质按钮配斜放蓝色铅笔。 / A paper button with a diagonal blue pencil. |
 | [工作区目录与会话列表 / Workspace directory and session list](#workspace-directory) | 展开或收起工作区内的会话，定位当前会话。 / Expands or collapses workspace sessions and locates the current conversation. | 书本开合图标、目录纸页、叠纸收起状态、书签与选中便签。 / Open/closed book icons, directory sheets, stacked collapsed pages, bookmarks and selected paper notes. |
 | [会话小飞机 / Session planes](#planes) | 表示当前、运行中与后台活动状态。 / Marks current, running and background activity. | 金色／蓝色飞机及运行时飞行动画。 / Gold/blue planes with a flying animation while running. |
-| [工作区悬浮信息 / Workspace hover card](#workspace-hover) | 查看工作区目录和最近活动。 / Inspects the workspace directory and recent activity. | 叠层文件夹、凸出索引标签与纸页。 / A layered folder with protruding index tabs and sheets. |
+| [会话与工作区悬浮信息 / Session and workspace hover information](#workspace-hover) | 查看工作区目录和最近活动。 / Inspects the workspace directory and recent activity. 悬停查看一条会话的摘要信息。 / Inspects a session summary on hover. | 叠层文件夹、凸出索引标签与纸页。 / A layered folder with protruding index tabs and sheets. 奶油色档案纸签、顶部小标签和侧边纸耳；与工作区文件夹分属不同信息入口。 / A cream archive card with a top tab and side ear, distinct from the workspace folder entry. |
 | [侧栏视图选项 / Sidebar view options](#view-options) | 调整会话列表的显示选项。 / Adjusts how the session list is displayed. | 带“视图选项”标题的档案袋，选中项保留勾选反馈。 / An archive sleeve labeled View, retaining selected-item checkmarks. |
 | [个人账户 / Account](#account) | 显示账户并打开账户相关菜单。 / Displays the account and opens its menu. | 邮票头像、账户纸卡、纸袋底托和设置卡签；展开菜单沿用账户纸卡风格。 / Stamp avatar, account card, paper pocket and Settings tab, with a matching account menu. |
 | [今日用量与余额 / Daily usage and balance](#daily-usage) | 显示今日消耗、调用情况及可用余额信息。 / Displays daily usage, calls and available balance information. | 卷角记账纸、分隔线及与侧栏拼贴衔接的纸卡。数据仍来自 DSH。 / A curled ledger slip and dividers integrated with the sidebar collage; figures still come from DSH. |
@@ -45,7 +43,6 @@ The inventory below groups implemented designs by usage, not by artwork producti
 | [用户消息与助手回复 / User and assistant messages](#messages) | 阅读双方的对话内容。 / Reads messages from both sides. | 用户蓝色方格便签与汽水装饰；助手横线信纸、手写署名与回形针。 / Blue grid notes with a soda decoration for users; lined paper, handwritten signature and paper clip for assistant replies. |
 | [回复代码块 / Reply code blocks](#code-fold) | 阅读代码，并使用原生复制、换行等操作。 / Reads code and uses native copy/wrapping controls. | 淡黄色折页、独立语言纸签、手绘代码符号和书本图案。 / Pale yellow folded inserts, language tabs, drawn code symbols and book artwork. |
 | [当前会话标题 / Current session heading](#session-heading) | 标识正在查看的会话。 / Identifies the conversation being viewed. | 顶边贴合的浅蓝折角索引纸签。 / A pale blue folded index label aligned with the top edge. |
-| [会话悬浮摘要 / Session hover summary](#session-hover) | 悬停查看一条会话的摘要信息。 / Inspects a session summary on hover. | 奶油色档案纸签、顶部小标签和侧边纸耳；与工作区文件夹分属不同信息入口。 / A cream archive card with a top tab and side ear, distinct from the workspace folder entry. |
 | [触发通知 / Turn-trigger notice](#notifications) | 说明定时计划等非人工事件为何触发当前对话轮次。 / Explains why a non-human event, such as a schedule, started the turn. | 收起的信封与展开的信纸属于同一个通知的两种状态。 / Closed envelope and unfolded letter are two states of the same notice. |
 | [交互问答本 / Interactive question pad](#question-pad) | 在助手需要信息时选择答案或填写回复。 / Chooses an answer or provides information requested by the assistant. | 竖向装订环、鲸鱼贴纸、纸页选项及蓝色回答纸。这是可作答的问题面板，不是统一适配的问题摘要卡。 / Vertical binding loops, whale sticker, paper choices and blue answer sheet. This is the answerable question panel, distinct from the generically styled question-summary card. |
 
@@ -53,13 +50,11 @@ The inventory below groups implemented designs by usage, not by artwork producti
 
 | 模块 / Module | 功能 / Purpose | 专门设计 / Design |
 | --- | --- | --- |
-| [消息输入本 / Composer notebook](#composer) | 输入下一条消息。 / Writes the next message. | 可撕方格纸、顶部撕痕和蓝色装订条、西瓜贴纸与折角。 / Tear-off grid paper, torn top edge, blue binding strip, watermelon sticker and folded corner. |
-| [发送与运行操作 / Send and run controls](#send-controls) | 发送消息、插话或停止当前运行。 / Sends a message, steers a run or stops it. | 针对不同动作绘制的文具式按钮和独立贴纸。 / Stationery buttons and distinct artwork for each action. |
-| [工作区、模式与分支选项 / Workspace, mode and branch options](#composer-options) | 选择新会话使用的工作环境与模式。 / Chooses the workspace and mode for a conversation. | 折角纸签、叠层标签与夹板式触发按钮。 / Folded paper labels, layered tabs and clipboard-like triggers. |
+| [消息输入区与会话选项 / Composer and conversation options](#composer) | 输入下一条消息。 / Writes the next message. 选择新会话使用的工作环境与模式。 / Chooses the workspace and mode for a conversation. | 可撕方格纸、顶部撕痕和蓝色装订条、西瓜贴纸与折角。 / Tear-off grid paper, torn top edge, blue binding strip, watermelon sticker and folded corner. 折角纸签、叠层标签与夹板式触发按钮。 / Folded paper labels, layered tabs and clipboard-like triggers. |
+| [发送、运行与排队消息 / Send, run and queued messages](#send-controls) | 发送消息、插话或停止当前运行。 / Sends a message, steers a run or stops it. 查看尚未发送的排队内容，并进行插话、编辑或删除。 / Reviews queued content and provides steering, edit and delete actions. | 针对不同动作绘制的文具式按钮和独立贴纸。 / Stationery buttons and distinct artwork for each action. 与输入本连接的蓝色便签，配有不同动作贴纸和编辑铅笔。 / A blue note joined to the composer, with action stickers and an editing pencil. |
 | [模型选择 / Model selection](#model-selector) | 选择使用的模型及相关选项。 / Selects the model and its available options. | 有齿孔边缘的邮票式选择器。 / A postage-stamp selector with a perforated edge. |
-| [权限模式选择 / Permission mode selection](#permission-picker) | 选择当前会话的权限模式。 / Chooses the session permission mode. | 笔刷底选项与纸质标签，保留原生权限文字和选择逻辑。 / Brush-backed options and paper labels, retaining native permission labels and behavior. |
+| [权限模式与完全权限确认 / Permission modes and full-access confirmation](#permission-picker) | 选择当前会话的权限模式。 / Chooses the session permission mode. 在启用完全权限前阅读说明并确认。 / Reads and confirms the explanation before enabling full access. | 笔刷底选项与纸质标签，保留原生权限文字和选择逻辑。 / Brush-backed options and paper labels, retaining native permission labels and behavior. 双线夹板、跨边金属夹、警示笔刷和纸质正文；不同于通用审批摘要卡。 / A double-bordered clipboard, overhanging clip, warning brush and paper body, distinct from generic approval-summary cards. |
 | [添加与指令 / Add and command picker](#add-command) | 查找并选择输入区的添加项或指令候选。 / Finds and selects add-items or command candidates in the composer. | 带“添加与指令”标签的索引纸卡、分组标题与选中笔刷。 / An index card with an Add and Commands tab, section headings and a brush selection highlight. |
-| [排队消息 / Queued messages](#queued-message) | 查看尚未发送的排队内容，并进行插话、编辑或删除。 / Reviews queued content and provides steering, edit and delete actions. | 与输入本连接的蓝色便签，配有不同动作贴纸和编辑铅笔。 / A blue note joined to the composer, with action stickers and an editing pencil. |
 
 ### 任务、计划与插件 / Tasks, schedules and plugins
 
@@ -75,11 +70,9 @@ The inventory below groups implemented designs by usage, not by artwork producti
 
 | 模块 / Module | 功能 / Purpose | 专门设计 / Design |
 | --- | --- | --- |
-| [交付文件 / Deliverables](#files) | 识别和打开助手生成的成果文件。 / Identifies and opens files delivered by the assistant. | 按文档、图片和代码等类型绘制的模切贴纸、对应色彩与手写展开控件。 / Die-cut stickers and colors for documents, images, code and other types, with a handwritten expand control. |
-| [变更文件摘要 / Changed-file summary](#changed-files) | 查看修改了哪些文件及增删信息。 / Reviews changed files and additions/deletions. | 复用文件类型贴纸，结合可折叠的变更列表；用途与交付文件分别说明。 / File-type stickers within a collapsible change list, serving a different purpose from deliverables. |
+| [交付文件与变更摘要 / Deliverables and changed-file summaries](#files) | 识别和打开助手生成的成果文件。 / Identifies and opens files delivered by the assistant. 查看修改了哪些文件及增删信息。 / Reviews changed files and additions/deletions. | 按文档、图片和代码等类型绘制的模切贴纸、对应色彩与手写展开控件。 / Die-cut stickers and colors for documents, images, code and other types, with a handwritten expand control. 复用文件类型贴纸，结合可折叠的变更列表；用途与交付文件分别说明。 / File-type stickers within a collapsible change list, serving a different purpose from deliverables. |
 | [右侧工作区入口 / Right workspace launcher](#workspace) | 打开项目文件、终端或浏览器。 / Opens project files, terminal or browser. | 蓝色夹板、金属夹与彩色入口卡片；不将通用工具面板外壳另列为设计展示。 / A blue clipboard, metal clip and colored entry cards; the generic tool-panel shell is not listed as a separate design. |
-| [会话更多菜单 / Session more menu](#session-menu) | 使用当前会话的更多操作。 / Accesses additional conversation actions. | 顶部卷起的纸轴和横线菜单纸。 / A rolled top edge and ruled menu paper. |
-| [打开方式菜单 / Open-in-app menu](#open-in-app) | 选择用哪个应用打开相关内容。 / Chooses an application to open content. | 同样使用纸轴外观，但与会话更多菜单分属不同功能。 / Uses rolled paper artwork, but remains a separate function from conversation actions. |
+| [会话更多与打开方式菜单 / Session and open-in-app menus](#session-menu) | 下载 Session 日志或发送反馈。 / Downloads the Session log or opens feedback. 选择用哪个应用打开相关内容。 / Chooses an application to open content. | 顶部卷起的纸轴和横线菜单纸。 / A rolled top edge and ruled menu paper. 同样使用纸轴外观，但与会话更多菜单分属不同功能。 / Uses rolled paper artwork, but remains a separate function from conversation actions. |
 | [会话统计与上下文 / Session statistics and context](#stats) | 分别查看模型／工具用时、Token 输入输出和当前上下文容量组成。 / Inspects model/tool timing, input/output tokens and current context composition. | 用时记录纸、Token 账单、上下文索引卡与统计入口笔刷；三者数值含义分别保留。 / Timing sheet, token ledger, context index card and brush-backed triggers, keeping their distinct meanings. |
 
 ### 专用窗口与设置 / Dedicated windows and settings
@@ -87,11 +80,9 @@ The inventory below groups implemented designs by usage, not by artwork producti
 | 模块 / Module | 功能 / Purpose | 专门设计 / Design |
 | --- | --- | --- |
 | [远程访问电话本 / Remote-access address book](#remote-book) | 查看远程访问条件和连接信息，通过其他设备访问同一 Web 界面。 / Shows remote-access requirements and connection information for accessing the same web interface from another device. | 电话本入口图标、蓝色软封皮回卷、独立纸页、右侧字母索引和手绘电话标题。 / An address-book button, curled blue soft cover, separate page block, alphabet tabs and drawn telephone heading. |
-| [会话预览 / Session preview](#session-preview) | 查看保存会话的元信息和前几条对话摘要。 / Inspects saved-session metadata and the first conversation entries. | 手写标题、图标化信息区、笔刷小标题、区分用户／助手的摘要纸卡与边框图钉。 / A handwritten heading, metadata icons, brush section label, user/assistant summary cards and border pins. |
-| [完全权限确认 / Full-access confirmation](#full-access) | 在启用完全权限前阅读说明并确认。 / Reads and confirms the explanation before enabling full access. | 双线夹板、跨边金属夹、警示笔刷和纸质正文；不同于通用审批摘要卡。 / A double-bordered clipboard, overhanging clip, warning brush and paper body, distinct from generic approval-summary cards. |
+| [归档会话预览 / Archived-session preview](#session-preview) | 查看已归档会话的元信息和前几条对话摘要。 / Inspects archived-session metadata and the first conversation entries. | 手写标题、图标化信息区、笔刷小标题、区分用户／助手的摘要纸卡与边框图钉。 / A handwritten heading, metadata icons, brush section label, user/assistant summary cards and border pins. |
 | [更新入口与下载提示 / Update entry and download tip](#update-tip) | 在有新版本时提供更新入口，并显示下载进度和目标版本。 / Offers an update entry when available and shows download progress and target version. | 与账户、电话本按钮协调排列，下载提示改为纸质小便签。 / Layout coordinated with account and address-book controls, with a paper-note download tip. |
-| [设置手账外壳 / Settings journal shell](#settings-gallery) | 浏览和切换设置页面。 / Browses and switches settings pages. | 左侧 Q 版贴纸、笔刷导航、装订环、方格纸页及照片胶带白边。 / A chibi sidebar sticker, brush navigation, binding rings, grid pages and taped photo borders. |
-| [设置页内卡片 / Settings page cards](#settings-gallery) | 呈现账户、通用、模型、智能体／预设、归档、用量等各页设置内容。 / Presents account, general, model, agent/preset, archive, usage and other settings. | 撕边便笺、模型索引卡、选中预设标签、档案与用量账页，以及按页面安排的独立配图。 / Torn notes, model index cards, selected-preset tabs, archive/usage ledgers and page-specific illustrations. |
+| [设置页与预设配图 / Settings and preset illustrations](#settings-gallery) | 查看账号与余额、使用统计，以及预设配图。 / Shows account/balance, usage statistics and preset illustrations. | 两个设置页展示装订、左栏贴纸和纸卡；下方直接列出 14 张原始配图。 / Two settings pages show binding, the sidebar sticker and paper cards; 14 original illustrations follow below. |
 
 **范围说明：** 后续统一默认样式适配的菜单、时间浮层、后台任务菜单、审批／问题摘要卡、工具参数卡、技能／模型能力面板、通用弹窗及工具面板外壳不纳入这份专门设计展示。样式菜单的选图、拖动、旋转、缩放等编辑能力属于[独立插件](https://github.com/Alphazerolan/diy-journal-settings)。
 
@@ -99,9 +90,10 @@ The inventory below groups implemented designs by usage, not by artwork producti
 
 ## 局部预览图 / Detail previews
 
-上方 39 项模块均可点击名称查看对应预览。同一功能的多个状态集中展示，设置页可逐页展开。这里的完整窗口仍为静态样例；实际 DSH 窗口见[首页实机截图](../README.md#效果预览)。
+点击上方模块名称可查看对应预览。菜单中的四张实机局部图由用户提供，其他组件为静态样例。
 
-Each of the 39 inventory entries links to its corresponding preview. Related states stay together, and settings pages can be expanded individually. Full windows here are still static examples; see the [README captures](../README.md#效果预览) for full home and settings windows.
+Click a module name above to view its preview. Four actual menu captures were supplied by the user; other component images are static examples.
+
 
 
 <a id="messages"></a>
@@ -166,6 +158,10 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 ![消息输入区 / Message composer · 浅色 / Light · Dark](components/composer-dark.png)
 
 </details>
+
+<a id="composer-options"></a>
+
+工作区、模式与分支选项已包含在上方输入区预览中，使用同一组折角纸签。 / Workspace, mode and branch options are included in the composer preview above, using its folded paper labels.
 
 <a id="planes"></a>
 
@@ -249,7 +245,9 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 
 <a id="workspace-hover"></a>
 
-## 工作区悬浮信息 / Workspace hover information
+## 会话与工作区悬浮信息 / Session and workspace hover information
+
+### 工作区文件夹 / Workspace folder
 
 **功能：** 悬停查看工作区名称、目录与最近活动时间。
 
@@ -267,6 +265,25 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 <summary>深色 / Dark</summary>
 
 ![工作区悬浮信息 / Workspace hover information · 浅色 / Light · Dark](components/workspace-hover-dark.png)
+
+</details>
+
+<a id="session-hover"></a>
+
+### 会话悬浮摘要 / Session hover summary
+
+**功能 / Function：** 悬停查看一条会话的摘要信息。 / Inspects a session summary on hover.
+
+**设计 / Design：** 奶油色档案纸签、顶部小标签和侧边纸耳；与工作区文件夹分属不同信息入口。 / A cream archive card with a top tab and side ear, distinct from the workspace folder entry.
+
+**会话悬浮摘要 / Session hover summary · 浅色 / Light**
+
+![会话悬浮摘要 / Session hover summary · Light](components/session-hover-light.png)
+
+<details>
+<summary>会话悬浮摘要 / Session hover summary · 深色 / Dark</summary>
+
+![会话悬浮摘要 / Session hover summary · Dark](components/session-hover-dark.png)
 
 </details>
 
@@ -378,7 +395,7 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 
 <a id="files"></a>
 
-## 交付文件 / Deliverable files
+## 交付文件与变更摘要 / Deliverables and changed-file summaries
 
 **功能：** 展示助手交付的文件，帮助按名称和类型识别要打开的成果。
 
@@ -396,6 +413,25 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 <summary>深色 / Dark</summary>
 
 ![交付文件 / Deliverable files · 浅色 / Light · Dark](components/files-dark.png)
+
+</details>
+
+<a id="changed-files"></a>
+
+### 变更文件摘要 / Changed-file summary
+
+**功能 / Function：** 查看修改了哪些文件及增删信息。 / Reviews changed files and additions/deletions.
+
+**设计 / Design：** 复用文件类型贴纸，结合可折叠的变更列表；用途与交付文件分别说明。 / File-type stickers within a collapsible change list, serving a different purpose from deliverables.
+
+**变更文件摘要 / Changed-file summary · 浅色 / Light**
+
+![变更文件摘要 / Changed-file summary · Light](components/changed-files-light.png)
+
+<details>
+<summary>变更文件摘要 / Changed-file summary · 深色 / Dark</summary>
+
+![变更文件摘要 / Changed-file summary · Dark](components/changed-files-dark.png)
 
 </details>
 
@@ -421,31 +457,6 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 ![会话统计与上下文 / Session statistics and context · 浅色 / Light · Dark](components/stats-dark.png)
 
 </details>
-
-<a id="home-layout"></a>
-
-## 主界面、侧栏与照片拼贴 / Home, sidebar and photo collage
-
-**功能 / Function：** 承载欢迎区和新会话入口。 / Hosts the welcome area and entry into a new conversation.
-
-**设计 / Design：** “手账本”手写标题、铅笔与涂画、保留的“探索未至之境”纸片标题、纸页与装订边。 / Handwritten journal title, pencil and scribbles, the retained welcome-title paper sticker, page and binding edge.
-
-**功能 / Function：** 为主界面、侧栏和设置页提供配图位置。 / Provides image placements on the home screen, sidebars and settings pages.
-
-**设计 / Design：** 照片白边、题字、胶带与拼贴布局；无照片区域隐藏照片及附属装饰。调整功能由独立样式菜单提供。 / Photo borders, captions, washi tape and collage layouts; empty slots hide the photo and its decorations. Editing is provided by the separate style-menu plugin.
-
-**主界面与照片拼贴 / Home and photo collage · 浅色 / Light**
-
-![主界面与照片拼贴 / Home and photo collage · Light](components/home-full-light.png)
-
-<details>
-<summary>主界面与照片拼贴 / Home and photo collage · 深色 / Dark</summary>
-
-![主界面与照片拼贴 / Home and photo collage · Dark](components/home-full-dark.png)
-
-</details>
-
-设置页各位置的拼贴见[设置预览](#settings-gallery)。 / See the [settings gallery](#settings-gallery) for page-specific photo placements.
 
 <a id="new-conversation"></a>
 
@@ -493,16 +504,11 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 
 **设计 / Design：** 带“视图选项”标题的档案袋，选中项保留勾选反馈。 / An archive sleeve labeled View, retaining selected-item checkmarks.
 
-**侧栏视图选项 / Sidebar view options · 浅色 / Light**
+**侧栏视图选项 / Sidebar view options · 实机局部截图 / Actual menu capture**
 
 ![侧栏视图选项 / Sidebar view options · Light](components/view-options-light.png)
 
-<details>
-<summary>侧栏视图选项 / Sidebar view options · 深色 / Dark</summary>
 
-![侧栏视图选项 / Sidebar view options · Dark](components/view-options-dark.png)
-
-</details>
 
 <a id="daily-usage"></a>
 
@@ -539,25 +545,6 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 <summary>当前会话标题 / Current session heading · 深色 / Dark</summary>
 
 ![当前会话标题 / Current session heading · Dark](components/session-heading-dark.png)
-
-</details>
-
-<a id="session-hover"></a>
-
-## 会话悬浮摘要 / Session hover summary
-
-**功能 / Function：** 悬停查看一条会话的摘要信息。 / Inspects a session summary on hover.
-
-**设计 / Design：** 奶油色档案纸签、顶部小标签和侧边纸耳；与工作区文件夹分属不同信息入口。 / A cream archive card with a top tab and side ear, distinct from the workspace folder entry.
-
-**会话悬浮摘要 / Session hover summary · 浅色 / Light**
-
-![会话悬浮摘要 / Session hover summary · Light](components/session-hover-light.png)
-
-<details>
-<summary>会话悬浮摘要 / Session hover summary · 深色 / Dark</summary>
-
-![会话悬浮摘要 / Session hover summary · Dark](components/session-hover-dark.png)
 
 </details>
 
@@ -599,22 +586,22 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 
 </details>
 
-<a id="composer-options"></a>
+<a id="queued-message"></a>
 
-## 工作区、模式与分支选项 / Workspace, mode and branch options
+### 排队消息 / Queued messages
 
-**功能 / Function：** 选择新会话使用的工作环境与模式。 / Chooses the workspace and mode for a conversation.
+**功能 / Function：** 查看尚未发送的排队内容，并进行插话、编辑或删除。 / Reviews queued content and provides steering, edit and delete actions.
 
-**设计 / Design：** 折角纸签、叠层标签与夹板式触发按钮。 / Folded paper labels, layered tabs and clipboard-like triggers.
+**设计 / Design：** 与输入本连接的蓝色便签，配有不同动作贴纸和编辑铅笔。 / A blue note joined to the composer, with action stickers and an editing pencil.
 
-**工作区、模式与分支选项 / Workspace, mode and branch options · 浅色 / Light**
+**排队消息 / Queued messages · 浅色 / Light**
 
-![工作区、模式与分支选项 / Workspace, mode and branch options · Light](components/composer-options-light.png)
+![排队消息 / Queued messages · Light](components/queued-message-light.png)
 
 <details>
-<summary>工作区、模式与分支选项 / Workspace, mode and branch options · 深色 / Dark</summary>
+<summary>排队消息 / Queued messages · 深色 / Dark</summary>
 
-![工作区、模式与分支选项 / Workspace, mode and branch options · Dark](components/composer-options-dark.png)
+![排队消息 / Queued messages · Dark](components/queued-message-dark.png)
 
 </details>
 
@@ -624,7 +611,7 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 
 **功能 / Function：** 选择使用的模型及相关选项。 / Selects the model and its available options.
 
-**设计 / Design：** 有齿孔边缘的邮票式选择器。 / A postage-stamp selector with a perforated edge.
+**设计 / Design：** 展示展开后的邮票式选择卡片及模型候选，保留思考强度入口。 / Expanded postage-stamp selection cards and model choices, retaining the reasoning-effort entry.
 
 **模型选择 / Model selection · 浅色 / Light**
 
@@ -639,20 +626,34 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 
 <a id="permission-picker"></a>
 
-## 权限模式选择 / Permission mode selection
+## 权限模式与完全权限确认 / Permission modes and full-access confirmation
+
+### 选择权限模式 / Choose a permission mode
 
 **功能 / Function：** 选择当前会话的权限模式。 / Chooses the session permission mode.
 
 **设计 / Design：** 笔刷底选项与纸质标签，保留原生权限文字和选择逻辑。 / Brush-backed options and paper labels, retaining native permission labels and behavior.
 
-**权限模式选择 / Permission mode selection · 浅色 / Light**
+**权限模式选择 / Permission mode selection · 实机局部截图 / Actual menu capture**
 
 ![权限模式选择 / Permission mode selection · Light](components/permission-picker-light.png)
 
-<details>
-<summary>权限模式选择 / Permission mode selection · 深色 / Dark</summary>
+<a id="full-access"></a>
 
-![权限模式选择 / Permission mode selection · Dark](components/permission-picker-dark.png)
+### 完全权限确认 / Full-access confirmation
+
+**功能 / Function：** 在启用完全权限前阅读说明并确认。 / Reads and confirms the explanation before enabling full access.
+
+**设计 / Design：** 双线夹板、跨边金属夹、警示笔刷和纸质正文；不同于通用审批摘要卡。 / A double-bordered clipboard, overhanging clip, warning brush and paper body, distinct from generic approval-summary cards.
+
+**完全权限确认 / Full-access confirmation · 浅色 / Light**
+
+![完全权限确认 / Full-access confirmation · Light](components/full-access-light.png)
+
+<details>
+<summary>完全权限确认 / Full-access confirmation · 深色 / Dark</summary>
+
+![完全权限确认 / Full-access confirmation · Dark](components/full-access-dark.png)
 
 </details>
 
@@ -672,25 +673,6 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 <summary>添加与指令 / Add and command picker · 深色 / Dark</summary>
 
 ![添加与指令 / Add and command picker · Dark](components/add-command-dark.png)
-
-</details>
-
-<a id="queued-message"></a>
-
-## 排队消息 / Queued messages
-
-**功能 / Function：** 查看尚未发送的排队内容，并进行插话、编辑或删除。 / Reviews queued content and provides steering, edit and delete actions.
-
-**设计 / Design：** 与输入本连接的蓝色便签，配有不同动作贴纸和编辑铅笔。 / A blue note joined to the composer, with action stickers and an editing pencil.
-
-**排队消息 / Queued messages · 浅色 / Light**
-
-![排队消息 / Queued messages · Light](components/queued-message-light.png)
-
-<details>
-<summary>排队消息 / Queued messages · 深色 / Dark</summary>
-
-![排队消息 / Queued messages · Dark](components/queued-message-dark.png)
 
 </details>
 
@@ -754,62 +736,33 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 
 </details>
 
-<a id="changed-files"></a>
-
-## 变更文件摘要 / Changed-file summary
-
-**功能 / Function：** 查看修改了哪些文件及增删信息。 / Reviews changed files and additions/deletions.
-
-**设计 / Design：** 复用文件类型贴纸，结合可折叠的变更列表；用途与交付文件分别说明。 / File-type stickers within a collapsible change list, serving a different purpose from deliverables.
-
-**变更文件摘要 / Changed-file summary · 浅色 / Light**
-
-![变更文件摘要 / Changed-file summary · Light](components/changed-files-light.png)
-
-<details>
-<summary>变更文件摘要 / Changed-file summary · 深色 / Dark</summary>
-
-![变更文件摘要 / Changed-file summary · Dark](components/changed-files-dark.png)
-
-</details>
-
 <a id="session-menu"></a>
 
-## 会话更多菜单 / Session more menu
+## 会话更多与打开方式菜单 / Session and open-in-app menus
 
-**功能 / Function：** 使用当前会话的更多操作。 / Accesses additional conversation actions.
+### 会话更多菜单 / Session more menu
+
+**功能 / Function：** 下载 Session 日志或发送反馈。 / Downloads the Session log or opens feedback.
 
 **设计 / Design：** 顶部卷起的纸轴和横线菜单纸。 / A rolled top edge and ruled menu paper.
 
-**会话更多菜单 / Session more menu · 浅色 / Light**
+**会话更多菜单 / Session more menu · 实机局部截图 / Actual menu capture**
 
 ![会话更多菜单 / Session more menu · Light](components/session-menu-light.png)
 
-<details>
-<summary>会话更多菜单 / Session more menu · 深色 / Dark</summary>
-
-![会话更多菜单 / Session more menu · Dark](components/session-menu-dark.png)
-
-</details>
-
 <a id="open-in-app"></a>
 
-## 打开方式菜单 / Open-in-app menu
+### 打开方式菜单 / Open-in-app menu
 
 **功能 / Function：** 选择用哪个应用打开相关内容。 / Chooses an application to open content.
 
 **设计 / Design：** 同样使用纸轴外观，但与会话更多菜单分属不同功能。 / Uses rolled paper artwork, but remains a separate function from conversation actions.
 
-**打开方式菜单 / Open-in-app menu · 浅色 / Light**
+**打开方式菜单 / Open-in-app menu · 实机局部截图 / Actual menu capture**
 
 ![打开方式菜单 / Open-in-app menu · Light](components/open-in-app-light.png)
 
-<details>
-<summary>打开方式菜单 / Open-in-app menu · 深色 / Dark</summary>
 
-![打开方式菜单 / Open-in-app menu · Dark](components/open-in-app-dark.png)
-
-</details>
 
 <a id="remote-book"></a>
 
@@ -832,39 +785,20 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 
 <a id="session-preview"></a>
 
-## 会话预览 / Session preview
+## 归档会话预览 / Archived-session preview
 
-**功能 / Function：** 查看保存会话的元信息和前几条对话摘要。 / Inspects saved-session metadata and the first conversation entries.
+**功能 / Function：** 查看已归档会话的元信息和前几条对话摘要。 / Inspects archived-session metadata and the first conversation entries.
 
 **设计 / Design：** 手写标题、图标化信息区、笔刷小标题、区分用户／助手的摘要纸卡与边框图钉。 / A handwritten heading, metadata icons, brush section label, user/assistant summary cards and border pins.
 
-**会话预览 / Session preview · 浅色 / Light**
+**归档会话预览 / Archived-session preview · 浅色 / Light**
 
-![会话预览 / Session preview · Light](components/session-preview-light.png)
-
-<details>
-<summary>会话预览 / Session preview · 深色 / Dark</summary>
-
-![会话预览 / Session preview · Dark](components/session-preview-dark.png)
-
-</details>
-
-<a id="full-access"></a>
-
-## 完全权限确认 / Full-access confirmation
-
-**功能 / Function：** 在启用完全权限前阅读说明并确认。 / Reads and confirms the explanation before enabling full access.
-
-**设计 / Design：** 双线夹板、跨边金属夹、警示笔刷和纸质正文；不同于通用审批摘要卡。 / A double-bordered clipboard, overhanging clip, warning brush and paper body, distinct from generic approval-summary cards.
-
-**完全权限确认 / Full-access confirmation · 浅色 / Light**
-
-![完全权限确认 / Full-access confirmation · Light](components/full-access-light.png)
+![归档会话预览 / Archived-session preview · Light](components/session-preview-light.png)
 
 <details>
-<summary>完全权限确认 / Full-access confirmation · 深色 / Dark</summary>
+<summary>归档会话预览 / Archived-session preview · 深色 / Dark</summary>
 
-![完全权限确认 / Full-access confirmation · Dark](components/full-access-dark.png)
+![归档会话预览 / Archived-session preview · Dark](components/session-preview-dark.png)
 
 </details>
 
@@ -889,14 +823,11 @@ Each of the 39 inventory entries links to its corresponding preview. Related sta
 
 <a id="settings-gallery"></a>
 
-## 设置外壳与各页卡片 / Settings shell and page cards
+## 设置页：账号与余额、使用统计 / Settings: account, balance and usage
 
-设置左栏、装订、纸页与各页配图一并展示。使用虚构账户和示例数据，不显示桌面宠物。长页面保留原生滚动区域。
+这里展示账号与余额、使用统计两页；左栏贴纸、装订和纸页也包含在图中。下方直接列出随皮肤提供的预设配图。
 
-The sidebar, binding, paper cards and page-specific artwork are shown together using a fictional account and sample data, without a desktop pet. Long pages retain their scroll area.
-
-<details>
-<summary>账号与余额 / Account and balance</summary>
+These two pages show account/balance and usage statistics, including the sidebar sticker, binding and paper layout. The preset illustrations bundled with the skin are listed directly below.
 
 **账号与余额 / Account and balance · 浅色 / Light**
 
@@ -909,155 +840,6 @@ The sidebar, binding, paper cards and page-specific artwork are shown together u
 
 </details>
 
-</details>
-
-<details>
-<summary>通用设置 / General settings</summary>
-
-**通用设置 / General settings · 浅色 / Light**
-
-![通用设置 / General settings · Light](components/settings-general-light.png)
-
-<details>
-<summary>通用设置 / General settings · 深色 / Dark</summary>
-
-![通用设置 / General settings · Dark](components/settings-general-dark.png)
-
-</details>
-
-</details>
-
-<details>
-<summary>模型 / Models</summary>
-
-**模型 / Models · 浅色 / Light**
-
-![模型 / Models · Light](components/settings-models-light.png)
-
-<details>
-<summary>模型 / Models · 深色 / Dark</summary>
-
-![模型 / Models · Dark](components/settings-models-dark.png)
-
-</details>
-
-</details>
-
-<details>
-<summary>内置插件 / Built-in plugins</summary>
-
-**内置插件 / Built-in plugins · 浅色 / Light**
-
-![内置插件 / Built-in plugins · Light](components/settings-plugins-light.png)
-
-<details>
-<summary>内置插件 / Built-in plugins · 深色 / Dark</summary>
-
-![内置插件 / Built-in plugins · Dark](components/settings-plugins-dark.png)
-
-</details>
-
-</details>
-
-<details>
-<summary>Agent 预设 / Agent presets</summary>
-
-**Agent 预设 / Agent presets · 浅色 / Light**
-
-![Agent 预设 / Agent presets · Light](components/settings-presets-light.png)
-
-<details>
-<summary>Agent 预设 / Agent presets · 深色 / Dark</summary>
-
-![Agent 预设 / Agent presets · Dark](components/settings-presets-dark.png)
-
-</details>
-
-</details>
-
-<details>
-<summary>已归档会话 / Archived sessions</summary>
-
-**已归档会话 / Archived sessions · 浅色 / Light**
-
-![已归档会话 / Archived sessions · Light](components/settings-archive-light.png)
-
-<details>
-<summary>已归档会话 / Archived sessions · 深色 / Dark</summary>
-
-![已归档会话 / Archived sessions · Dark](components/settings-archive-dark.png)
-
-</details>
-
-</details>
-
-<details>
-<summary>Web 插件 / Web plugin</summary>
-
-**Web 插件 / Web plugin · 浅色 / Light**
-
-![Web 插件 / Web plugin · Light](components/settings-web-light.png)
-
-<details>
-<summary>Web 插件 / Web plugin · 深色 / Dark</summary>
-
-![Web 插件 / Web plugin · Dark](components/settings-web-dark.png)
-
-</details>
-
-</details>
-
-<details>
-<summary>皮肤 / Skins</summary>
-
-**皮肤 / Skins · 浅色 / Light**
-
-![皮肤 / Skins · Light](components/settings-skins-light.png)
-
-<details>
-<summary>皮肤 / Skins · 深色 / Dark</summary>
-
-![皮肤 / Skins · Dark](components/settings-skins-dark.png)
-
-</details>
-
-</details>
-
-<details>
-<summary>宠物设置 / Pet settings</summary>
-
-**宠物设置 / Pet settings · 浅色 / Light**
-
-![宠物设置 / Pet settings · Light](components/settings-pets-light.png)
-
-<details>
-<summary>宠物设置 / Pet settings · 深色 / Dark</summary>
-
-![宠物设置 / Pet settings · Dark](components/settings-pets-dark.png)
-
-</details>
-
-</details>
-
-<details>
-<summary>创意工坊 / Workshop</summary>
-
-**创意工坊 / Workshop · 浅色 / Light**
-
-![创意工坊 / Workshop · Light](components/settings-workshop-light.png)
-
-<details>
-<summary>创意工坊 / Workshop · 深色 / Dark</summary>
-
-![创意工坊 / Workshop · Dark](components/settings-workshop-dark.png)
-
-</details>
-
-</details>
-
-<details>
-<summary>使用统计 / Usage statistics</summary>
-
 **使用统计 / Usage statistics · 浅色 / Light**
 
 ![使用统计 / Usage statistics · Light](components/settings-usage-light.png)
@@ -1069,4 +851,20 @@ The sidebar, binding, paper cards and page-specific artwork are shown together u
 
 </details>
 
-</details>
+<a id="preset-artwork"></a>
+
+### 预设配图 / Preset illustrations
+
+以下为发布包内的 14 张原始配图，未叠加照片白边、胶带或界面控件。图片由 ChatGPT 生成；角色及素材说明见 [NOTICE](../skins/diy-journal/NOTICE)。
+
+These are the 14 original illustrations included in the release, without photo borders, tape or interface controls. Images were generated with ChatGPT; see [NOTICE](../skins/diy-journal/NOTICE) for character and artwork information.
+
+| 配图 / Illustration | 配图 / Illustration |
+| --- | --- |
+| **主界面 / Home**<br>云海里的鲸鱼娘<br>![主界面 / Home](artwork/home.png) | **设置-账号与余额 / Account and balance**<br>鲸鱼存钱罐<br>![设置-账号与余额 / Account and balance](artwork/account.png) |
+| **设置-通用设置 / General settings**<br>整理晨间小屋<br>![设置-通用设置 / General settings](artwork/general.png) | **设置-模型 / Models**<br>星图学习时间<br>![设置-模型 / Models](artwork/models.png) |
+| **设置-内置插件 / Built-in plugins**<br>拼好一只小鲸鱼<br>![设置-内置插件 / Built-in plugins](artwork/plugins.png) | **设置-Agent预设 / Agent presets**<br>准备下一次冒险<br>![设置-Agent预设 / Agent presets](artwork/presets.png) |
+| **设置-已归档会话 / Archived sessions**<br>收藏温柔回忆<br>![设置-已归档会话 / Archived sessions](artwork/archive.png) | **设置-Web插件 / Web plugin**<br>海边电话<br>![设置-Web插件 / Web plugin](artwork/web.png) |
+| **设置-皮肤 / Skins**<br>挑选今日配色<br>![设置-皮肤 / Skins](artwork/skins.png) | **设置-宠物 / Pet settings**<br>草地上的小伙伴<br>![设置-宠物 / Pet settings](artwork/pets.png) |
+| **设置-创意工坊 / Workshop**<br>手账文具小摊<br>![设置-创意工坊 / Workshop](artwork/workshop.png) | **设置-使用统计 / Usage statistics**<br>数一数今日星光<br>![设置-使用统计 / Usage statistics](artwork/usage.png) |
+| **设置界面左栏 / Settings sidebar**<br>拿手账招手的透明贴纸<br>![设置界面左栏 / Settings sidebar](artwork/settings-sidebar.png) | **主界面左栏 / Main sidebar**<br>休息一小会<br>![主界面左栏 / Main sidebar](artwork/main-sidebar.png) |
