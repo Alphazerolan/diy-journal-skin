@@ -39,7 +39,7 @@ for (const name of ['README.md', 'README.en.md', 'INSTALL.md', 'LICENSE', 'LICEN
   'skins/diy-journal/NOTICE', 'skins/diy-journal/ARTWORK.json']) reference(path.join(root, 'check'), name);
 const hash = p => createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const sums = fs.readFileSync(path.join(root, 'evidence/SHA256SUMS.txt'), 'utf8').trim().split(/\r?\n/);
-if (sums.length !== 4) failures.push('Expected four native screenshots');
+if (sums.length !== 6) failures.push('Expected six native screenshots');
 for (const line of sums) {
   const [expected, name] = line.trim().split(/\s+/);
   const file = path.join(root, 'evidence', name);
@@ -49,4 +49,4 @@ for (const theme of ['light', 'dark']) {
   if (hash(path.join(skin, `preview/${theme}.jpg`)) !== hash(path.join(root, `evidence/diy-journal-${theme}.jpg`))) failures.push(`Catalog preview mismatch: ${theme}`);
 }
 if (failures.length) { console.error(failures.join('\n')); process.exitCode = 1; }
-else console.log(`PASS: ${checked} local references, manifest, four evidence hashes and catalog preview identity.`);
+else console.log(`PASS: ${checked} local references, manifest, six evidence hashes and catalog preview identity.`);

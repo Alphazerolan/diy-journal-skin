@@ -33,16 +33,17 @@ The optional style menu plugin currently supports Windows and requires Python 3.
 ### Conversation bubbles · User and DeepSeek replies
 
 User messages use blue grid-paper notes. DeepSeek replies use lined paper with a
-handwritten signature and a paper clip, with folded-paper styling for code blocks.
-The following sample conversation is rendered with the skin's styles.
+handwritten signature and a paper clip. These screenshots show the actual running
+DSH window with the full sidebar and personal information hidden. Each theme was
+selected in the app before capture.
 
 **Light**
 
-![Light user and DeepSeek reply bubbles](evidence/diy-journal-messages-light.png)
+![Actual light window with user and DeepSeek reply bubbles](evidence/diy-journal-messages-light.jpg)
 
 **Dark**
 
-![Dark user and DeepSeek reply bubbles](evidence/diy-journal-messages-dark.png)
+![Actual dark window with user and DeepSeek reply bubbles](evidence/diy-journal-messages-dark.jpg)
 
 ### Settings · Light
 
