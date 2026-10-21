@@ -35,6 +35,8 @@ See [NOTICE](NOTICE) for attribution sources and license scope, and [ARTWORK.jso
 for illustration themes and hashes. Fonts retain their OFL licenses. Reference-video frames,
 illustration files from other skins and personal photos are not bundled.
 
+The illustrations and character artwork bundled with this skin are for personal, non-commercial use only. Character and other third-party rights remain with their respective holders; this notice grants no third-party rights or official authorization.
+
 ## Compatibility and limits
 
 Skin manifest v2, optional SkinHooks v1alpha1. The host only executes approved

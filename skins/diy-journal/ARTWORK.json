@@ -88,5 +88,9 @@
       "theme": "休息一小会",
       "sha256": "ab37c2c93eee8c04f47fe323619ee7390a15739937accfbe9aa2de1b1a80d06c"
     }
-  ]
+  ],
+  "usage": {
+    "en": "The illustrations and character artwork bundled with this skin are for personal, non-commercial use only. Character and other third-party rights remain with their respective holders; this notice grants no third-party rights or official authorization.",
+    "zh": "本皮肤随附的插画及角色画面仅限个人非商业使用；角色及其他第三方权利仍归相应权利人，本声明不授予第三方权利或官方授权。"
+  }
 }
