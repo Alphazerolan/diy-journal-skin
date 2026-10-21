@@ -6,5 +6,5 @@ Describe the problem and resulting behavior.
 
 - [ ] `node scripts/check-release.mjs`
 - [ ] Light/dark and narrow-window review, if UI changed
-- [ ] Screenshots redacted; unrelated unlicensed pets hidden
+- [ ] Screenshots contain no personal information or unauthorized artwork
 - [ ] Source and license declarations preserved or supported by evidence

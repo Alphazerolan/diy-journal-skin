@@ -35,7 +35,7 @@ for (const file of walk(root)) {
   }
   if (ext === '.md') for (const match of content.matchAll(/!?\[[^\]]*\]\(([^\s)]+)\)/g)) reference(file, match[1]);
 }
-for (const name of ['README.md', 'README.en.md', 'INSTALL.md', 'LICENSE', 'LICENSE-ARTWORK', 'VERIFICATION.md',
+for (const name of ['README.md', 'README.en.md', 'INSTALL.md', 'LICENSE', 'LICENSE-ARTWORK',
   'skins/diy-journal/NOTICE', 'skins/diy-journal/ARTWORK.json']) reference(path.join(root, 'check'), name);
 const hash = p => createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const sums = fs.readFileSync(path.join(root, 'evidence/SHA256SUMS.txt'), 'utf8').trim().split(/\r?\n/);

@@ -1,36 +1,41 @@
-# DIY 手账本 / DIY Journal
+# DIY 手账本
 
-把 Harness 拼成自己的手账：纸面、胶带、照片白边、小飞机、信封和电话簿。
+适用于 DeepSeek Harness 的手账风皮肤：纸张、胶带、照片白边、手写标题，以及便签式对话和电话簿远程访问面板。
 
-[English](README.en.md) · [安装与更新](INSTALL.md) · [皮肤说明](skins/diy-journal/README.zh.md) · [独立样式菜单插件](https://github.com/Alphazerolan/diy-journal-settings)
+[English](README.en.md) · [安装与更新](INSTALL.md) · [详细说明](skins/diy-journal/README.zh.md)
 
-The skin contains generated assets; no personal input photos, local paths or
-runtime credentials. Character clearance remains disclosed in the skin NOTICE.
+## 使用
 
-功能演示已暂时撤下，正在补齐对话气泡等遗漏区域并逐项核对。皮肤包与下方脱敏实机截图保留。
+将 `skins/diy-journal` 放入 Harness 的皮肤目录，然后在“设置 → 皮肤”中选择“DIY手账本”。具体路径与更新方法见[安装说明](INSTALL.md)。
 
-## 实机预览 / Actual application previews
+**默认配图与样式已包含在皮肤包中，无需安装样式菜单，也不需要 Python。**
 
-截图保留完整左栏，截图前已遮盖个人信息、隐藏无授权宠物。浅色和深色均在实际应用中切换。
+想更换照片、调整布局、胶带、白边或题字，可另行安装 [DIY 手账本设置插件](https://github.com/Alphazerolan/diy-journal-settings)。编辑器目前支持 Windows，需要 Python 3.9+。
 
-### 浅色 / Light
+## 效果预览
 
-![Light theme](evidence/diy-journal-light.jpg)
+### 主界面 · 浅色
 
-### 深色 / Dark
+![浅色主界面](evidence/diy-journal-light.jpg)
 
-![Dark theme](evidence/diy-journal-dark.jpg)
+### 主界面 · 深色
 
-### 设置：浅色 / Light settings
+![深色主界面](evidence/diy-journal-dark.jpg)
+
+### 设置 · 浅色
 
 ![浅色设置](evidence/diy-journal-settings-light.jpg)
 
-### 设置：深色 / Dark settings
+### 设置 · 深色
 
 ![深色设置](evidence/diy-journal-settings-dark.jpg)
 
-## 来源与维护
+## 兼容性
 
-默认 14 张配图由 ChatGPT 生成，逐图来源见 [ARTWORK.json](skins/diy-journal/ARTWORK.json)。角色参考与字体声明见 [NOTICE](skins/diy-journal/NOTICE)；生成方式不等于参考角色授权，相关核实项仍保留在草稿投稿中。仓库不包含个人自选照片或宠物素材。
+采用 v2 皮肤格式，支持浅色与深色。部分动态状态增强需要宿主批准可选钩子；Harness 界面升级后，部分样式可能需要适配。
 
-[代码许可](LICENSE) · [美术声明](LICENSE-ARTWORK) · [项目检查](VERIFICATION.md) · [更新记录](CHANGELOG.md) · [贡献说明](CONTRIBUTING.md) · [参考工坊文件对照](docs/REFERENCE-AUDIT.md)
+## 素材与许可
+
+默认 14 张配图由 ChatGPT 生成，记录见 [ARTWORK.json](skins/diy-journal/ARTWORK.json)。参考角色的权利与再分发授权尚未核实；本项目不是 DeepSeek 官方美术或官方授权项目。角色、素材及字体说明见 [NOTICE](skins/diy-journal/NOTICE)。
+
+[代码许可](LICENSE) · [素材许可范围](LICENSE-ARTWORK) · [更新记录](CHANGELOG.md) · [贡献说明](CONTRIBUTING.md)

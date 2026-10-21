@@ -1,22 +1,13 @@
-# Changelog / 更新记录
-
-## 2026-10-21 — Feature demo withdrawn / 功能演示撤下
-
-- Withdrew the incomplete feature gallery and its images; message bubbles and other styled surfaces were omitted. Skin code and redacted app captures unchanged.
-- 撤下不完整的功能演示，补齐核对后再展示；皮肤包和脱敏实机截图保留。
-
-## 1.14.1 documentation update — 2026-10-21
-
-- Replaced previews with full-sidebar main and settings captures in both themes.
-- Hid the unrelated unlicensed pet and masked personal text before capture.
-- Added an offline interactive feature gallery, component images, installation
-  guide, artwork-license scope, issue templates and repeatable repository checks.
-- Documentation and preview changes only; skin styles and hook code unchanged.
-
-补充展示与发布文档；保留皮肤 1.14.1 版本，未改变皮肤样式或钩子代码。
+# 更新记录 / Changelog
 
 ## 1.14.1 — 2026-10-21
 
-- Prepared the standalone skin package with 14 ChatGPT-generated illustrations.
-- Split the optional photo/style editor into its own repository.
-- Added bilingual guides, artwork provenance and upstream submission evidence.
+- 提供包含 14 张 ChatGPT 生成配图的独立皮肤包。
+- 支持主界面、设置和对话等区域的手账样式及浅色／深色配色。
+- 照片与样式编辑器作为可选插件单独提供。
+- 提供中英文安装说明、主界面与设置预览、素材来源和许可说明。
+
+- Standalone skin package with 14 ChatGPT-generated illustrations.
+- Notebook styling for home, settings and conversations, with light/dark palettes.
+- Photo and style editor available as a separate optional plugin.
+- Chinese/English installation guides, home/settings previews, provenance and license information.
