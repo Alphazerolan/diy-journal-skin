@@ -1,7 +1,13 @@
 # DIY Journal
 
-A notebook-inspired skin for DeepSeek Harness, with paper, tape, framed photos,
-handwritten headings, note-style conversations and an address-book remote-access panel.
+A notebook-inspired skin for DeepSeek Harness (DSH), restyling as many interface
+components as the developer could think of—from the home screen, sidebars and
+conversation bubbles to menus, cards and tool panels. [See the style preview](#preview).
+
+To bring the freedom of a scrapbook to the skin, we also created the
+[DIY Journal style menu plugin](https://github.com/Alphazerolan/diy-journal-settings).
+Use it to adjust layouts and styles in each area, replace images, and combine tape,
+photo borders and captions to make the journal your own.
 
 [中文](README.md) · [Install and update](INSTALL.md) · [Detailed guide](skins/diy-journal/README.md)
 
@@ -12,9 +18,7 @@ in Settings → Skins. See the [installation guide](INSTALL.md) for paths and up
 
 **Default artwork and styles are included. Neither the editor plugin nor Python is required to use the skin.**
 
-To customize photos, layouts, tape, borders and captions, install the optional
-[DIY Journal settings plugin](https://github.com/Alphazerolan/diy-journal-settings).
-The editor currently supports Windows and requires Python 3.9+.
+The optional style menu plugin currently supports Windows and requires Python 3.9+.
 
 ## Preview
 

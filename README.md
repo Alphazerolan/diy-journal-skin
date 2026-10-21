@@ -1,6 +1,8 @@
 # DIY 手账本
 
-适用于 DeepSeek Harness 的手账风皮肤：纸张、胶带、照片白边、手写标题，以及便签式对话和电话簿远程访问面板。
+本皮肤以手账本为主题，为 DeepSeek Harness（DSH）重绘了开发者尽可能想到的界面组件，从主界面、侧栏、对话气泡，到菜单、卡片和工具面板，让日常使用也有翻阅手账的感觉。[查看样式预览](#效果预览)。
+
+为了贴合手账本自由拼贴的特性，我们还制作了 [DIY 手账本样式菜单插件](https://github.com/Alphazerolan/diy-journal-settings)。你可以在插件中调整各个位置的布局与样式、更换图片，还能搭配胶带、白边和题字，组装属于自己的手账本。
 
 [English](README.en.md) · [安装与更新](INSTALL.md) · [详细说明](skins/diy-journal/README.zh.md)
 
@@ -10,7 +12,7 @@
 
 **默认配图与样式已包含在皮肤包中，无需安装样式菜单，也不需要 Python。**
 
-想更换照片、调整布局、胶带、白边或题字，可另行安装 [DIY 手账本设置插件](https://github.com/Alphazerolan/diy-journal-settings)。编辑器目前支持 Windows，需要 Python 3.9+。
+样式菜单为可选插件，目前支持 Windows，需要 Python 3.9+。
 
 ## 效果预览
 
