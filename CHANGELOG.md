@@ -1,5 +1,17 @@
 # 更新记录 / Changelog
 
+## 1.14.3 — 2026-10-22
+
+- 合并 27 个内容相同的素材文件并同步引用；现有样式仍引用的旧素材保留。
+- PNG 装饰图及 SVG 内嵌 PNG 改为无损 WebP，保持尺寸和解码后的 RGBA 像素一致。
+- SVG 保持自包含结构；14 张预设插画及两套完整字体未改动。
+- 皮肤目录由 37.57 MiB 减至约 32.89 MiB。配套一体化插件更新为 1.1.1。
+
+- Consolidate 27 identical asset files and update their references; retain older assets still referenced by styles.
+- Encode PNG decorations and embedded PNG payloads as lossless WebP with identical dimensions and decoded RGBA pixels.
+- Keep SVG wrappers self-contained, all 14 preset illustrations and both complete fonts unchanged.
+- Reduce the skin directory from 37.57 MiB to about 32.89 MiB; companion bundle updated to 1.1.1.
+
 ## 1.14.2 — 2026-10-21
 
 - 14 张插画保持原尺寸，使用高质量 WebP 压缩；保留 SVG 胶带、白边和响应式布局。
