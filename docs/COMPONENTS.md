@@ -1,6 +1,6 @@
 # 组件静态预览 / Static component previews
 
-[返回首页 / Back to README](../README.md) · [实机窗口截图 / Actual DSH windows](../README.md#效果预览) · [DIY 样式菜单 / DIY style menu](https://github.com/Alphazerolan/diy-journal-settings)
+[返回纯皮肤首页 / Standalone skin home](../README.md) · [纯皮肤实机窗口截图 / Standalone skin screenshots](../README.md#效果预览) · [返回 DIY 一体化插件皮肤首页 / DIY skin-and-editor bundle home](https://github.com/Alphazerolan/diy-journal-settings)
 
 这里按使用场景展示经过专门设计并已实装的皮肤组件。每节分别说明组件的用途与视觉设计，同一功能的收起／展开状态放在一起。仅统一适配底色、边框等默认样式的菜单、卡片与弹窗不在本页展示。
 
