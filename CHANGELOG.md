@@ -1,5 +1,14 @@
 # 更新记录 / Changelog
 
+## 1.14.4 — 2026-10-28
+
+- 适配 DSH 0.2.1-rc.3，同时保留旧组件规则；恢复选中笔刷、侧栏、气泡、设置和工具面板。
+- 去掉设置窗口外层阴影；配图跟随 Web 扩展页面标识，避免导航顺序变化导致错图。
+- 素材、字体、角色来源和非商业许可声明保持不变。开屏动画由独立插件 1.3.1 提供，纯皮肤不包含启动脚本。
+- Support DSH 0.2.1-rc.3 while retaining legacy selectors; restore selection brushes, sidebar, messages, settings and tools.
+- Remove the settings exterior shadow and follow Web Extensions page identities for artwork placement.
+- Preserve assets, fonts, provenance and non-commercial terms. Optional startup playback is provided by companion plugin 1.3.1, not by executable code in this asset-only package.
+
 ## 1.14.3 — 2026-10-22
 
 - 合并 27 个内容相同的素材文件并同步引用；现有样式仍引用的旧素材保留。
