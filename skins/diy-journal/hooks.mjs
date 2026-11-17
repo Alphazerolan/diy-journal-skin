@@ -1,3 +1,54 @@
+/* DIY-SETTINGS-VERSION-GATE-20261117 */
+/** Detect the actual DSH release. Unknown releases keep the legacy CSS. */
+function watchJournalSettingsVersion(win = window) {
+  function modern(value) {
+    if (typeof value !== 'string') return false;
+    const m = /^v?(\d+)\.(\d+)\.(\d+)(?:-([0-9A-Za-z.-]+))?(?:\+[0-9A-Za-z.-]+)?$/.exec(value.trim());
+    if (!m) return false;
+    const pre = m[4]?.toLowerCase().replace(/^rc(\d+)$/, 'rc.$1').split('.');
+    if (pre?.some(x => !x || (/^\d+$/.test(x) && x.length > 1 && x[0] === '0'))) return false;
+    const core = m.slice(1, 4).map(Number), target = [0, 2, 2];
+    if (core.some(n => !Number.isSafeInteger(n))) return false;
+    for (let i = 0; i < 3; i++) if (core[i] !== target[i]) return core[i] > target[i];
+    if (!m[4]) return true;
+    const required = ['rc', '1'];
+    for (let i = 0; i < Math.max(pre.length, required.length); i++) {
+      if (pre[i] === undefined) return false;
+      if (required[i] === undefined) return true;
+      if (pre[i] === required[i]) continue;
+      const a = /^\d+$/.test(pre[i]), b = /^\d+$/.test(required[i]);
+      if (a && b) return Number(pre[i]) > Number(required[i]);
+      if (a !== b) return !a;
+      return pre[i] > required[i];
+    }
+    return true;
+  }
+  const key = '__diyJournalSettingsVersionGate';
+  if (win[key]) return win[key].retain();
+  const root = win.document.body || win.document.documentElement;
+  const version = win.__DSH_BOOT__?.release?.version;
+  const layout = modern(version) ? 'rc1' : 'legacy';
+  const previous = ['data-diy-settings-layout', 'data-diy-dsh-version'].map(k => [k, root.getAttribute(k)]);
+  root.setAttribute('data-diy-settings-layout', layout);
+  root.setAttribute('data-diy-dsh-version', typeof version === 'string' ? version : 'unknown');
+  let refs = 0;
+  const state = { retain() {
+    refs++;
+    let released = false;
+    return () => {
+      if (released) return;
+      released = true;
+      if (--refs > 0) return;
+      for (const [name, value] of previous) {
+        if (value === null) root.removeAttribute(name); else root.setAttribute(name, value);
+      }
+      if (win[key] === state) delete win[key];
+    };
+  }};
+  win[key] = state;
+  return state.retain();
+}
+
 /**
  * diy-journal skin hooks —— v2 皮肤契约的逃生舱入口
  *   export default defineSkinHooks() → { apply(ctx) }
@@ -11,6 +62,7 @@
 export default function defineSkinHooks() {
   return {
     apply(ctx) {
+      ctx.onCleanup(watchJournalSettingsVersion(window));
       const SKIN = 'diy-journal';
         const root = document.documentElement;
         const isOurs = () => root.getAttribute('data-dsh-skin') === SKIN;

@@ -41,6 +41,9 @@ The illustrations and character artwork bundled with this skin are for personal,
 
 Skin manifest v2, optional SkinHooks v1alpha1. The host only executes approved
 market hooks; local copies may display CSS without optional state enhancements.
+Approved hooks select settings by the actual host version at 0.2.2-rc.1,
+retaining old rules for unknown versions. Without a version marker, CSS falls
+back to the verified new settings structure; old structures are unchanged.
 Some layout rules match current Harness classes and can require updates after
 Harness UI changes. The editor runs a token-protected loopback-only service and
 closes after 20 minutes idle. Workshop acceptance is still subject to review.

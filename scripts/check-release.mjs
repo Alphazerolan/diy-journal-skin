@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
+import './check-version-gate.mjs';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const skin = path.join(root, 'skins/diy-journal');
 const failures = [];

@@ -57,8 +57,12 @@ selected in the app before capture.
 
 ## Compatibility
 
-Uses the v2 skin format with light and dark palettes. Some dynamic state enhancements
-require host approval of optional hooks. Layout rules may need updates when Harness changes.
+Uses the v2 skin format with light and dark palettes. When hooks are approved, the
+actual host version selects the settings layout at the DSH 0.2.2-rc.1 boundary;
+unrecognized versions retain the old rules. CSS-only loading without a version
+marker falls back to the verified native settings structure, preserving old
+structures. Dynamic state enhancements still require host approval; skin-center
+trust rules are unchanged. Layout rules may need updates when Harness changes.
 
 ## Artwork and licensing
 

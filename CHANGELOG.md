@@ -1,5 +1,19 @@
 # 更新记录 / Changelog
 
+## 1.14.5 — 2026-11-17
+
+- 适配 DSH 0.2.2-rc.1 起的新版设置布局，恢复标题、纸飞机和工具栏，避免顶部纸边与胶带被裁切。允许钩子的宿主优先按实际版本选择；仅加载 CSS 时按已验证的新布局结构兼容，旧布局保持原样。
+- 修复出现新版本提示时侧栏照片被挤窄的问题；启用照片时置于消费便签上方，保留账户及侧栏操作。
+- 对齐子智能体表的编号、任务、状态列及表头边界，统一滚动条留白，保留嵌套成员及操作按钮。
+- 修复带工作目录的会话预览被误标为工作区的问题，恢复原有会话卡，工作区文件夹样式保持不变。
+- 保留原有 14 张预设插画、字体、来源及许可声明。本版不包含配套插件的编辑器更新保护，也未修改主页配图胶带的边界裁切。
+
+- Adapt settings to DSH 0.2.2-rc.1 and later layouts, restoring the title, paper plane and toolbar with clearance for raised paper edges and tape. Approved hooks prefer the actual host version; CSS-only loading uses the verified native layout structure while retaining the old layout.
+- Keep sidebar photos full-width when an update indicator appears, placing enabled photos above the usage note without displacing account or sidebar actions.
+- Align subagent roster headings, number/task/status columns and scrollbar clearance, preserving nested members and action buttons.
+- Restore the original session hover card when it includes a working directory, keeping workspace folder cards unchanged.
+- Preserve all 14 default illustrations, fonts, provenance and license terms. Editor update protection belongs to the companion plugin; this release does not change home-artwork tape clipping.
+
 ## 1.14.4 — 2026-10-28
 
 - 适配 DSH 0.2.1-rc.3，同时保留旧组件规则；恢复选中笔刷、侧栏、气泡、设置和工具面板。

@@ -19,6 +19,7 @@ skins/
     skin.json
     skin.css
     patches.css
+    hooks.mjs
     assets/
     preview/
 ```
@@ -43,7 +44,7 @@ Windows editor requires Python 3.9+. Default skin artwork works without it.
 | --- | --- |
 | 列表没有皮肤 / Missing from list | 确认没有多套一层目录，`skin.json` 与 `assets/` 同级。Check the folder nesting. |
 | 配图缺失 / Missing artwork | 完整复制 `assets/`，不要仅保存 CSS。Copy the complete assets directory. |
-| 动态状态没有启用 / State enhancement missing | 可选钩子由宿主审核，本地安装可能只加载 CSS。Local hooks may be denied; approval belongs to the host. |
+| 动态状态没有启用 / State enhancement missing | 可选钩子由宿主审核，本地安装可能只加载 CSS；新版设置页在没有版本标记时使用已验证结构回退。Local hooks may be denied; settings use the verified structural fallback when no version marker exists. Approval belongs to the host. |
 | 更新后布局变化 / Layout shifted after update | 附上 Harness 版本、皮肤版本和脱敏截图反馈；部分选择器依赖宿主结构。Report both versions and a redacted screenshot. |
 | 想恢复旧布局 / Revert customization | 使用更新前的备份；覆盖前先备份编辑器的个人图片和配置。Restore your backup. |
 
